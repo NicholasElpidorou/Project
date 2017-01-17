@@ -1,0 +1,108 @@
+/*GLOBAL AND MOBILE STYLE */
+
+body {
+    background: #FFFEC9;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: purple;
+}
+
+
+.container {        /*this is for mobile devices*/
+    max-width: 1120px;
+    margin: 0 auto;
+    background-color: blue;
+    text-align: center;
+
+}
+
+main {
+    padding: 4px;
+}
+
+.maps{
+    float: right;
+    position: relative;
+    padding-bottom: 30%;
+    padding-top: 35px;
+    height: 0;
+    overflow:hidden;
+}
+
+.description{
+    padding-top: 10px;
+    margin-top: 10px;
+
+}
+
+
+/*JUST TO SEE HOW IT WILL BE*/
+.slider{
+    text-align: center;
+    border-style: solid;
+    background-color: white;
+    width:100%;
+    height: 500px;
+}
+
+/*.products{*/
+    /*background-color: white;*/
+    /*border-style: solid;*/
+    /*padding-top: 10px;*/
+/*}*/
+
+/*.product-sliderImg{*/
+    /*border-style: solid;*/
+    /*width:10;*/
+/*}*/
+
+/*==================First Breakpoint==================*/
+@media screen and (min-width: 640px) {
+
+
+
+    .container{
+        background-color: green;
+    }
+
+    .mainContent{
+        display:inline-block;
+    }
+
+}
+
+/*==================Second Breakpoint==================*/
+@media screen and (min-width: 1028px) {
+
+    .container{
+        background-color: red;
+    }
+
+    .products{
+        background-color: green;
+        border-style: solid;
+        padding-top: 10px;
+    }
+
+    .product-sliderImg{
+        width:30%;
+        display: inline-block;
+        /*float: left;*/
+    }
+
+    .chooser table{
+        height:130px;
+        font-size: 50px;
+        width:100%;
+    }
+
+    .chooser td {
+        width:50%;
+        border-style: solid;
+        alignment: center;
+    }
+}
+
+
+/*==================END OF Second Breakpoint==================*/
