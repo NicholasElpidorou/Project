@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<style>
+
+    #stuff {
+        opacity: 0.0;
+        -webkit-transition: all 500ms ease-in-out;
+        -moz-transition: all 500ms ease-in-out;
+        -ms-transition: all 500ms ease-in-out;
+        -o-transition: all 500ms ease-in-out;
+        transition: all 500ms ease-in-out;
+    }
+
+    #hover {
+        width: 80px;
+        height: 20px;
+        background-color: green;
+        margin-bottom: 15px;
+    }
+
+    #hover:hover + #stuff {
+        opacity: 1.0;
+    }
+
+</style>
+
+
+<body>
+<div id="hover">Hover</div>
+<div id="stuff">
+    <div class="product-sliderImg">
+        <a href="Products/Watches.html"><img id="img1" src="ProductImages/watch.jpg" alt="innerImg"
+                                             class="innerImg" height="150px"/></a>
+        <p id="text1">
+            <a href="Products/Watches.html">Watches</a>
+        </p>
+    </div>
+
+    <div class="product-sliderImg">
+        <a href="Products/Watches.html"><img id="img2" src="ProductImages/bracelet.jpg" alt="innerImg"
+                                             class="innerImg" height="150px"/></a>
+        <p id="text2">
+            <a href="Products/Watches.html">Watches</a>
+        </p>
+    </div>
+
+    <div class="product-sliderImg">
+        <a href="Products/Watches.html"><img id="img3" src="ProductImages/necklace.jpeg" alt="innerImg"
+                                             class="innerImg" height="150px"/></a>
+        <p id="text3">
+            <a href="Products/Watches.html">Watches</a>
+        </p>
+    </div>
+
+    <div class="product-sliderImg">
+        <a href="Products/Watches.html"><img id="img4" src="ProductImages/ring.jpg" alt="innerImg"
+                                             class="innerImg" height="150px"/></a>
+        <p id="text4">
+            <a href="Products/Watches.html">Watches</a>
+        </p>
+    </div>
+
+    <div class="product-sliderImg">
+        <a href="Products/Watches.html"><img id="img5" src="ProductImages/wallet.jpg" alt="innerImg"
+                                             class="innerImg" height="150px"/></a>
+        <p id="text5">
+            <a href="Products/Watches.html">Watches</a>
+        </p>
+    </div>
+
+    <div class="product-sliderImg">
+        <a href="Products/Watches.html"><img id="img6" src="ProductImages/zippo.jpg" alt="innerImg"
+                                             class="innerImg" height="150px"/></a>
+        <p id="text6">
+            <a href="Products/Watches.html">Watches</a>
+        </p>
+    </div>
+
+    <div class="buttons">
+        <button id="prev" class="prev" onclick="" disabled="disabled">Previous</button>
+        <button id="btn1" class="btn1" onclick="">1</button>
+        <button id="btn2" class="btn2" onclick="">2</button>
+        <button id="btn3" class="btn3" onclick="">3</button>
+        <button id="next" class="next" onclick="">Next</button>
+
+    </div>
+</div>
+</body>
+</html>

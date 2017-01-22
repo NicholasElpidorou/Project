@@ -8,13 +8,11 @@ body {
     background-color: purple;
 }
 
-
 .container {        /*this is for mobile devices*/
     max-width: 1120px;
     margin: 0 auto;
     background-color: blue;
     text-align: center;
-
 }
 
 main {
@@ -56,6 +54,14 @@ main {
     /*border-style: solid;*/
     /*width:10;*/
 /*}*/
+
+.buttom{
+    text-align: center;
+}
+
+.products{
+    display: none;
+}
 
 /*==================First Breakpoint==================*/
 @media screen and (min-width: 640px) {
