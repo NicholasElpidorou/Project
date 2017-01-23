@@ -1,114 +1,177 @@
 /*GLOBAL AND MOBILE STYLE */
 
 body {
-    background: #FFFEC9;
     font-family: Arial;
     margin: 0;
     padding: 0;
-    background-color: purple;
+    background-color: #CACACA
+;
 }
 
-.container {        /*this is for mobile devices*/
+.container { /*this is for mobile devices*/
+    /*background-color:red;*/
     max-width: 1120px;
     margin: 0 auto;
-    background-color: blue;
     text-align: center;
+}
+
+/**********HEADER OF THE PAGE**********/
+.header h1 {
+    display: inline-block;
+}
+
+.header .logo {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 main {
-    padding: 4px;
+    padding-left: 10px;
+    padding-right:10px
 }
 
-.maps{
-    float: right;
-    position: relative;
-    padding-bottom: 30%;
-    padding-top: 35px;
-    height: 0;
-    overflow:hidden;
-}
-
-.description{
-    padding-top: 10px;
-    margin-top: 10px;
-
-}
-
+/**********SLIDER OF THE PAGE**********/
 
 /*JUST TO SEE HOW IT WILL BE*/
-.slider{
-    text-align: center;
-    border-style: solid;
-    background-color: white;
+.slider {
+    width: 100%;
+    height: 400px;
+}
+
+.slider img {
+    width: 100%;
+    height: 400px;
+}
+
+/**********CHOOSER OF THE PAGE**********/
+
+.chooser .Selections{
+    background-color: black;
     width:100%;
-    height: 500px;
 }
 
-/*.products{*/
-    /*background-color: white;*/
-    /*border-style: solid;*/
-    /*padding-top: 10px;*/
-/*}*/
-
-/*.product-sliderImg{*/
-    /*border-style: solid;*/
-    /*width:10;*/
-/*}*/
-
-.buttom{
-    text-align: center;
+.chooser a {
+    text-decoration: none;
+    text-align:center;
+    font-size: 40px;
+    color: white;
+    transition: all 1.0s;
+    padding-left:20px;
+    padding-right:20px
 }
 
-.products{
+.chooser a:hover,
+.chooser a.here  {
+    color: #A2A2A2;
+    /*border-bottom: 4px solid #9aa;*/
+}
+
+
+
+/*.chooser a:hover*/
+
+/*.chooser a:link,*/
+/*.chooser a:visited {*/
+    /*!**/
+      /*20% with 5 items will fill the width - use box-sizing*/
+      /*(see bottom of this file) if necessary*/
+    /**!*/
+    /*!*width: 15%;*!*/
+    /*font-size: 50px;*/
+    /*margin-left: 10px;*/
+    /*margin-top:10px;*/
+    /*display: inline-block;*/
+    /*background-color: #9a9;*/
+    /*text-decoration: none;*/
+    /*color: #000;*/
+    /*!*border-bottom: 4px solid #565;*!*/
+    /*transition: all 0.5s;*/
+/*}*/
+
+
+
+.products { /*Products div is not displayed unless clicked*/
     display: none;
+    border-style: solid;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+.products .product-sliderImg{
+
+    /*padding-left: 50px;*/
+    /*float:left;*/
+    display: inline-block;
+    margin:10px;
+}
+
+.products .product-sliderImg img {
+    height:150px;
+    width:150px;
+}
+
+/**********MAIN CONTENT OF THE PAGE**********/
+.mainContent{
+    width:100%
+}
+
+.mainContent .map iframe {
+    width: 90%;
+    height:300px;
+}
+
+
+
+
+/**********Buttom OF THE PAGE**********/
+
+.buttom {
+    text-align: center;
 }
 
 /*==================First Breakpoint==================*/
-@media screen and (min-width: 640px) {
-
-
+@media screen and (min-width: 580px) {
 
     .container{
-        background-color: green;
+    /*background-color:green;*/
     }
+
 
     .mainContent{
-        display:inline-block;
-    }
 
+    }
 }
 
 /*==================Second Breakpoint==================*/
-@media screen and (min-width: 1028px) {
+@media screen and (min-width: 960px) {
 
     .container{
-        background-color: red;
+        /*background-color:gold;*/
     }
 
-    .products{
-        background-color: green;
-        border-style: solid;
-        padding-top: 10px;
+
+    .products {
+        /*padding-top: 10px;*/
     }
 
-    .product-sliderImg{
-        width:30%;
-        display: inline-block;
-        /*float: left;*/
+    .product-sliderImg {
+        width: 30%;
     }
 
-    .chooser table{
-        height:130px;
-        font-size: 50px;
-        width:100%;
-    }
+   .mainContent{
+       display: inline-block;
+   }
+   .mainContent .map{
+       width: 65%;
+       float:left;
+   }
 
-    .chooser td {
-        width:50%;
-        border-style: solid;
-        alignment: center;
+    .mainContent .description{
+        text-align: left;
     }
 }
-
 
 /*==================END OF Second Breakpoint==================*/
