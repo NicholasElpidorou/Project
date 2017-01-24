@@ -1,17 +1,17 @@
 /*GLOBAL AND MOBILE STYLE */
 
 body {
-    font-family: Arial;
+    font-family: Open Sans;
     margin: 0;
     padding: 0;
-    background-color: #CACACA
-;
+    background-color: #CACACA;
 }
 
 .container { /*this is for mobile devices*/
     /*background-color:red;*/
     max-width: 1120px;
     margin: 0 auto;
+    margin-top:20px;
     text-align: center;
 }
 
@@ -28,7 +28,7 @@ body {
 
 main {
     padding-left: 10px;
-    padding-right:10px
+    padding-right: 10px
 }
 
 /**********SLIDER OF THE PAGE**********/
@@ -42,89 +42,73 @@ main {
 .slider img {
     width: 100%;
     height: 400px;
+    box-shadow: 10px 10px 5px #888888;
+
 }
 
 /**********CHOOSER OF THE PAGE**********/
 
-.chooser .Selections{
+.chooser .Selections {
     background-color: black;
-    width:100%;
+    width: 100%;
 }
 
 .chooser a {
     text-decoration: none;
-    text-align:center;
+    text-align: center;
     font-size: 40px;
     color: white;
     transition: all 1.0s;
-    padding-left:20px;
-    padding-right:20px
+    padding-left: 20px;
+    padding-right: 20px
 }
 
 .chooser a:hover,
-.chooser a.here  {
+.chooser a.here {
     color: #A2A2A2;
-    /*border-bottom: 4px solid #9aa;*/
+
 }
-
-
-
-/*.chooser a:hover*/
-
-/*.chooser a:link,*/
-/*.chooser a:visited {*/
-    /*!**/
-      /*20% with 5 items will fill the width - use box-sizing*/
-      /*(see bottom of this file) if necessary*/
-    /**!*/
-    /*!*width: 15%;*!*/
-    /*font-size: 50px;*/
-    /*margin-left: 10px;*/
-    /*margin-top:10px;*/
-    /*display: inline-block;*/
-    /*background-color: #9a9;*/
-    /*text-decoration: none;*/
-    /*color: #000;*/
-    /*!*border-bottom: 4px solid #565;*!*/
-    /*transition: all 0.5s;*/
-/*}*/
 
 
 
 .products { /*Products div is not displayed unless clicked*/
     display: none;
     border-style: solid;
+    border-color: white;
     margin-bottom: 10px;
     background-color: black;
     color: white;
-    border-color: white;
 }
 
-.products .product-sliderImg{
+.products .product-sliderImg {
 
-    /*padding-left: 50px;*/
-    /*float:left;*/
+    padding-top:10px;
     display: inline-block;
-    margin:10px;
+    margin: 10px;
+}
+
+.products .product-sliderImg img:hover {
+    /*-moz-box-shadow: 0 0 100px #ccc;*/
+    /*-webkit-box-shadow: 0 0 100px #ccc;*/
+    box-shadow: 0 0 40px white;
+    transform: scale(1.2);
+
 }
 
 .products .product-sliderImg img {
-    height:150px;
-    width:150px;
+    height: 150px;
+    width: 150px;
 }
 
 /**********MAIN CONTENT OF THE PAGE**********/
-.mainContent{
-    width:100%
+.mainContent {
+    width: 100%
 }
 
 .mainContent .map iframe {
     width: 90%;
-    height:300px;
+    height: 300px;
 }
-
-
-
 
 /**********Buttom OF THE PAGE**********/
 
@@ -135,12 +119,11 @@ main {
 /*==================First Breakpoint==================*/
 @media screen and (min-width: 580px) {
 
-    .container{
-    /*background-color:green;*/
+    .container {
+        /*background-color:green;*/
     }
 
-
-    .mainContent{
+    .mainContent {
 
     }
 }
@@ -148,10 +131,9 @@ main {
 /*==================Second Breakpoint==================*/
 @media screen and (min-width: 960px) {
 
-    .container{
+    .container {
         /*background-color:gold;*/
     }
-
 
     .products {
         /*padding-top: 10px;*/
@@ -161,15 +143,16 @@ main {
         width: 30%;
     }
 
-   .mainContent{
-       display: inline-block;
-   }
-   .mainContent .map{
-       width: 65%;
-       float:left;
-   }
+    .mainContent {
+        display: inline-block;
+    }
 
-    .mainContent .description{
+    .mainContent .map {
+        width: 65%;
+        float: left;
+    }
+
+    .mainContent .description {
         text-align: left;
     }
 }

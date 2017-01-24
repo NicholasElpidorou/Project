@@ -3,17 +3,26 @@
  */
 
 
+// $(document).ready(function(){
+//     $("SelectionLink").click(function(){
+//         $("#products").fadeIn();
+//
+//     });
+// });
+
 function ShowMen() {
+
+    document.getElementById("products").style.accelerator
     document.getElementById("products").style.display='block';
 
-    document.getElementById("img1").src = "../Images/ProductImages/Men/MenBracelet.jpg"
-    document.getElementById("text1").innerHTML = 'Bracelet'
+    document.getElementById("img1").src = "../Images/ProductImages/Men/MenWatch.jpeg"
+    document.getElementById("text1").innerHTML = 'Watches'
 
     document.getElementById("img2").src = "../Images/ProductImages/Men/MenRing.jpg"
     document.getElementById("text2").innerHTML = 'Ring'
 
-    document.getElementById("img3").src = "../Images/ProductImages/Men/MenWatch.jpeg"
-    document.getElementById("text3").innerHTML = 'Watch'
+    document.getElementById("img3").src = "../Images/ProductImages/Men/MenBracelet.jpg"
+    document.getElementById("text3").innerHTML = 'Bracelets'
 
     document.getElementById("img4").src = "../Images/ProductImages/Men/MenWallet.jpg"
     document.getElementById("text4").innerHTML = 'Wallet'
@@ -31,6 +40,7 @@ function ShowMen() {
 
 
 
+
 }
 
 function ShowWomen() {
@@ -40,7 +50,7 @@ function ShowWomen() {
     document.getElementById("text1").innerHTML = 'Bracelets'
 
     document.getElementById("img2").src = "../Images/ProductImages/Women/WomanEaring.jpg"
-    document.getElementById("text2").innerHTML = 'Rings'
+    document.getElementById("text2").innerHTML = 'Earings'
 
     document.getElementById("img3").src = "../Images/ProductImages/Women/WomanNecklace.jpeg"
     document.getElementById("text3").innerHTML = 'Necklaces'
@@ -48,7 +58,7 @@ function ShowWomen() {
     document.getElementById("img4").src = "../Images/ProductImages/Women/WomanRing.jpg"
     document.getElementById("text4").innerHTML = 'Rings'
 
-    document.getElementById("img5").src = "../Images/ProductImages/Women/WomanWatch.jpg"
+    document.getElementById("img5").src ="../Images/ProductImages/Women/WomanWatch.jpg"
     document.getElementById("text5").innerHTML = 'Watches'
 
     document.getElementById("img6").src = "../Images/ProductImages/Women/Cuffs.jpg"
@@ -65,10 +75,10 @@ function ShowAccessories() {
     document.getElementById("products").style.display='block';
 
     document.getElementById("img1").src = "../Images/ProductImages/Accessories/KeyRing.jpg"
-    document.getElementById("text1").innerHTML = 'Bracelet'
+    document.getElementById("text1").innerHTML = 'Key Rings'
 
     document.getElementById("img2").src = "../Images/ProductImages/Accessories/Zippo.jpg"
-    document.getElementById("text2").innerHTML = 'Ring'
+    document.getElementById("text2").innerHTML = 'Zippo'
 
     document.getElementById("img3").src = "../Images/ProductImages/Accessories/JeweleryBox.jpg"
     document.getElementById("text3").innerHTML = 'Jewelery boxes'
