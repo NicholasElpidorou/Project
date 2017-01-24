@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width,initial-scale = 1">
     <title>Nicholas Jewelery shop</title>
 
-    <link rel="stylesheet" type="text/css" href="../CSS/style.css"/>
-    <!--<link rel="stylesheet" type="text/css" href="CSS/slider.css"/>-->
+    <link rel="stylesheet" type="text/css" href="../CSS/MainStyle.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="../CSS/ModalStyle.css"/>-->
+    <link rel="stylesheet" type="text/css" href="../CSS/SnackBarStyle.css"/>
+    <link rel="stylesheet" type="text/css" href="../CSS/SliderStyle.css"/>
 
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
 
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic">
 
 
 </head>
@@ -18,7 +20,7 @@
 <div class="container">
 
     <div class="header">
-        <img src="../Images/Other/Title.png">
+        <h1>Nicholas Jewelery Store</h1>
         <a class="logo" href="http://www.facebook.com/" title="find us on Facebook"><img
                 alt="follow us on facebook" src="../Images/Other/facebook.png" width="50px" height="50px"></a>
     </div><!--End of header div--->
@@ -31,7 +33,10 @@
 
 
         <div class="chooser">
-            <h2>Browse our products by categories!</h2>
+            <h2>
+             Browse our products by categories!
+            </h2>
+
             <h2 class="Selections">
                 <a href="#middle" class="SelectionLink" onclick="ShowMen();">MEN</a>
                 <a href="#middle" class="SelectionLink" onclick="ShowWomen();">WOMEN</a>
@@ -42,7 +47,7 @@
         <div class="products" id="products">
             <div class="product-sliderImg">
                 <a href="ProductPages/Watches.html"><img id="img1" src="../Images/ProductImages/Men/Wallet.jpg"
-                                                     alt="innerImg" class="innerImg"/></a>
+                                                         alt="innerImg" class="innerImg"/></a>
                 <p id="text1">
                     <a href="ProductPages/Watches.html">Watches</a>
                 </p>
@@ -99,13 +104,77 @@
             </div><!--End of Description div--->
         </div><!--End of mainContent div--->
 
-        <div class="buttom">
-            <hr>
-            <p>Nicholas Elpidorou Website</p>
-            <p>p14138568@my365.dmu.ac.uk</p>
 
-            <br>
-        </div><!--Buttom-->
+        <div class="Bottom">
+            <hr>
+
+            <div class="middle">
+                <p>Nicholas Elpidorou Website</p>
+                <p>p14138568@my365.dmu.ac.uk</p>
+            </div>
+
+            <div class="left">
+                <strong><p><a href="#bottom" id="ContactUs">Contact Form</a></p></strong>
+                <strong><p><a href="#bottom" id="AboutUs">About us</a></p></strong>
+            </div>
+
+            <div class="right">
+                <p><strong>Rate Us</strong></p>
+                <a class="logo" href="http://www.facebook.com/" title="find us on Facebook"><img
+                        alt="follow us on facebook" src="../Images/Other/facebook.png" width="50px" height="50px"></a>
+            </div>
+            <div id="snackbar">Email Sent thank you</div>
+
+        </div>
+
+        <div id="ContactUsModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="ContactUsClose" class="close">&times;</span>
+                    <h2>Contact Us</h2>
+                </div>
+                <div class="modal-body">
+                    <fieldset id="#Name">
+                        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                    </fieldset>
+                    <fieldset id="#Email">
+                        <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                    </fieldset>
+                    <fieldset id="#Description">
+                        <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                    </fieldset>
+                </div>
+                <div class="modal-footer">
+                    <h3>We will contact you as soon as possible!</h3>
+                </div>
+            </div>
+        </div>
+
+        <div id="AboutUsModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="AboutUsClose" class="close">&times;</span>
+                    <h2>Contact Us</h2>
+                </div>
+                <div class="modal-body">
+                    <p>Nicholas Jewelery shop is a shop located in Limassol Cyprus. Directions to find us can be found by using the map in our Main Page.</p>
+                    <p>Meanwhile you can browse our website to see what products we have to offer and their prices</p>
+                    <p>Contact us form is also provided on the bottom of the Main Page where you can send us an email for any enquires you have</p>
+                    <p>We would like to see you in person</p>
+                </div>
+                <div class="modal-footer">
+                    <h3>We will contact you as soon as possible!</h3>
+                </div>
+            </div>
+        </div>
+
+
+        <!--</div>&lt;!&ndash;Buttom&ndash;&gt;-->
 
     </main>
 </div><!--End of container div--->
@@ -117,6 +186,8 @@
 
     <script src="../JavaScript/slider.js"></script>
     <script src="../JavaScript/ProductChooserButtons.js"></script>
+    <script src="../JavaScript/snackbar.js"></script>
+    <script src="../JavaScript/modal.js"></script>
 
 </footer>
 </html>
