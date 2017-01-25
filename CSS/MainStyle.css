@@ -6,7 +6,10 @@ body {
 
     margin: 0;
     padding: 0;
-    background-color: #CACACA;
+    /*background-color: #CACACA;*/
+    /*background-image:url("../Images/Other/1.jpg");*/
+    background-image:url("../Images/Other/4.png")
+
 }
 
 .container { /*this is for mobile devices*/
@@ -44,7 +47,7 @@ main {
 .slider img {
     width: 100%;
     height: 400px;
-    box-shadow: 10px 10px 5px #888888;
+    box-shadow: 10px 10px 5px #666666;
 
 }
 
@@ -55,7 +58,7 @@ main {
 }
 
 .chooser .Selections {
-    background-color: black;
+    background-color: #666666;
     width: 100%;
 }
 
@@ -71,7 +74,7 @@ main {
 
 .chooser a:hover,
 .chooser a.here {
-    color: #A2A2A2;
+    color: #0095a5;
 
 }
 
@@ -80,7 +83,7 @@ main {
     border-style: solid;
     border-color: white;
     margin-bottom: 10px;
-    background-color: black;
+    background-color: #666666;
     color: white;
 }
 
@@ -94,7 +97,7 @@ main {
 .products .product-sliderImg img:hover {
     /*-moz-box-shadow: 0 0 100px #ccc;*/
     /*-webkit-box-shadow: 0 0 100px #ccc;*/
-    box-shadow: 0 0 40px white;
+    box-shadow: 0 0 40px #0095a5;
     transform: scale(1.2);
 
 }
@@ -122,7 +125,7 @@ main {
 
 .Bottom a{
     text-decoration: none;
-    color:black;
+    color:#0095a5;
 }
 
 /* The Modal (background) */
@@ -198,7 +201,7 @@ main {
 
 .modal-header {
     padding: 2px 16px;
-    background-color: black;
+    background-color: #0095a5;
     color: white;
 }
 
@@ -237,7 +240,7 @@ fieldset textarea {
     width: 40%;
     border: none;
     color:white;
-    background: black;
+    background: #0095a5;
     margin-left:5px;
     margin-right: 5px;
     /*margin: 0 0 5px;*/
@@ -250,7 +253,7 @@ fieldset textarea {
 
 .modal-footer {
     padding: 2px 16px;
-    background-color: black;
+    background-color: #0095a5;
     color: white;
 }
 
