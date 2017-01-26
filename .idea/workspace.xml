@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8315f12f-4098-493d-828e-befacab39a7b" name="Default" comment="" />
+    <list default="true" id="8315f12f-4098-493d-828e-befacab39a7b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript/ProductChooserButtons.js" afterPath="$PROJECT_DIR$/JavaScript/ProductChooserButtons.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebPages/MainPage.html" afterPath="$PROJECT_DIR$/WebPages/MainPage.html" />
+    </list>
     <ignored path="FEWD 2nd assignment.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -24,30 +27,53 @@
       <file leaf-file-name="MainPage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebPages/MainPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="26" />
+            <state relative-caret-position="367">
+              <caret line="183" column="62" selection-start-line="183" selection-start-column="62" selection-end-line="183" selection-end-column="62" />
               <folding>
-                <element signature="e#5662#5669#0" expanded="true" />
-                <element signature="e#6920#6927#0" expanded="true" />
+                <element signature="e#5676#5683#0" expanded="true" />
+                <element signature="e#6934#6941#0" expanded="true" />
+                <element signature="e#7957#7964#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductChooserButtons.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JavaScript/ProductChooserButtons.js">
+      <file leaf-file-name="ProductsModal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript/ProductsModal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
+            <state relative-caret-position="640">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainStyle.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProductChooserButtons.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript/ProductChooserButtons.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModalForProductPage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebPages/ModalForProductPage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+              <folding>
+                <element signature="e#294#301#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainStyle.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSS/MainStyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1584">
+            <state relative-caret-position="-1313">
               <caret line="99" column="32" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="32" />
               <folding />
             </state>
@@ -96,8 +122,10 @@
         <option value="$PROJECT_DIR$/WebPages/ProductPages/Accessories/Zippos.html" />
         <option value="$PROJECT_DIR$/WebPages/ProductPages/Women/Necklaces.html" />
         <option value="$PROJECT_DIR$/WebPages/ProductPages/Women/Rings.html" />
-        <option value="$PROJECT_DIR$/WebPages/MainPage.html" />
+        <option value="$PROJECT_DIR$/WebPages/ProductPages/ModalForProductPage.html" />
+        <option value="$PROJECT_DIR$/JavaScript/ProductsModal.js" />
         <option value="$PROJECT_DIR$/JavaScript/ProductChooserButtons.js" />
+        <option value="$PROJECT_DIR$/WebPages/MainPage.html" />
       </list>
     </option>
   </component>
@@ -157,6 +185,52 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebPages" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebPages" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProductPages" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaScript" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -184,15 +258,15 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/WebPages" />
-      <recent name="$PROJECT_DIR$/JavaScript" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WebPages" />
       <recent name="$PROJECT_DIR$/WebPages/ProductPages/Men" />
       <recent name="$PROJECT_DIR$/Images/Other" />
       <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/Images/other" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JavaScript" />
       <recent name="$PROJECT_DIR$/WebPages" />
     </key>
   </component>
@@ -268,18 +342,18 @@
       <workItem from="1485355584676" duration="2824000" />
       <workItem from="1485368058137" duration="20000" />
       <workItem from="1485374428760" duration="3509000" />
-      <workItem from="1485397185670" duration="68000" />
+      <workItem from="1485397185670" duration="778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57463000" />
+    <option name="totallyTimeSpent" value="58173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="23" width="1405" height="840" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30374175" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30374175" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -314,24 +388,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaScript/ProductChooserButtons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebPages/MainPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#5662#5669#0" expanded="true" />
-            <element signature="e#6920#6927#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSS/MainStyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -352,8 +408,9 @@
         <state relative-caret-position="1520">
           <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
           <folding>
-            <element signature="e#5662#5669#0" expanded="true" />
-            <element signature="e#6920#6927#0" expanded="true" />
+            <element signature="e#5676#5683#0" expanded="true" />
+            <element signature="e#6934#6941#0" expanded="true" />
+            <element signature="e#7957#7964#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -378,8 +435,9 @@
         <state relative-caret-position="1520">
           <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
           <folding>
-            <element signature="e#5662#5669#0" expanded="true" />
-            <element signature="e#6920#6927#0" expanded="true" />
+            <element signature="e#5676#5683#0" expanded="true" />
+            <element signature="e#6934#6941#0" expanded="true" />
+            <element signature="e#7957#7964#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -404,8 +462,9 @@
         <state relative-caret-position="560">
           <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
           <folding>
-            <element signature="e#5662#5669#0" expanded="true" />
-            <element signature="e#6920#6927#0" expanded="true" />
+            <element signature="e#5676#5683#0" expanded="true" />
+            <element signature="e#6934#6941#0" expanded="true" />
+            <element signature="e#7957#7964#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -430,8 +489,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5662#5669#0" expanded="true" />
-            <element signature="e#6920#6927#0" expanded="true" />
+            <element signature="e#5676#5683#0" expanded="true" />
+            <element signature="e#6934#6941#0" expanded="true" />
+            <element signature="e#7957#7964#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -456,8 +516,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5662#5669#0" expanded="true" />
-            <element signature="e#6920#6927#0" expanded="true" />
+            <element signature="e#5676#5683#0" expanded="true" />
+            <element signature="e#6934#6941#0" expanded="true" />
+            <element signature="e#7957#7964#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -483,8 +544,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5662#5669#0" expanded="true" />
-            <element signature="e#6920#6927#0" expanded="true" />
+            <element signature="e#5676#5683#0" expanded="true" />
+            <element signature="e#6934#6941#0" expanded="true" />
+            <element signature="e#7957#7964#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -503,8 +565,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5662#5669#0" expanded="true" />
-            <element signature="e#6920#6927#0" expanded="true" />
+            <element signature="e#5676#5683#0" expanded="true" />
+            <element signature="e#6934#6941#0" expanded="true" />
+            <element signature="e#7957#7964#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -561,6 +624,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -568,6 +632,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -582,6 +647,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="640">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -589,6 +655,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#54#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -596,14 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/MainStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="99" column="32" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -649,21 +710,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebPages/MainPage.html">
+    <entry file="file://$PROJECT_DIR$/WebPages/ModalForProductPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="26" />
+        <state relative-caret-position="528">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
           <folding>
-            <element signature="e#5662#5669#0" expanded="true" />
-            <element signature="e#6920#6927#0" expanded="true" />
+            <element signature="e#294#301#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/ProductChooserButtons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
+        <state relative-caret-position="432">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/ProductsModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebPages/MainPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="183" column="62" selection-start-line="183" selection-start-column="62" selection-end-line="183" selection-end-column="62" />
+          <folding>
+            <element signature="e#5676#5683#0" expanded="true" />
+            <element signature="e#6934#6941#0" expanded="true" />
+            <element signature="e#7957#7964#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/MainStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1313">
+          <caret line="99" column="32" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="32" />
           <folding />
         </state>
       </provider>
