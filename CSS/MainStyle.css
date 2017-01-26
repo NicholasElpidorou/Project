@@ -258,6 +258,20 @@ fieldset textarea {
 }
 
 
+#ProductModal .modal-content{
+    width:50%;
+    background-color: green;
+}
+
+#ProductModal .product-sliderImg img{
+    float:left;
+}
+
+/*#ProductModal .product-sliderImg .details{*/
+    /*float:right*/
+/*}*/
+
+
 
 /*==================First Breakpoint==================*/
 @media screen and (min-width: 580px) {
