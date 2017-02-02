@@ -15,7 +15,7 @@ function ShowMen() {
     document.getElementById("products").style.display='block';
 
     document.getElementById("img1").src = "../Images/ProductImages/Men/MenWatch.jpeg"
-    document.getElementById("link1").href = "ProductPages/Men/Watches.html"
+    // document.getElementById("link1").href = "ProductPages/Men/Watches.html"
     document.getElementById("text1").innerHTML = 'Watches'
 
     document.getElementById("img2").src = "../Images/ProductImages/Men/MenBracelet.jpg"

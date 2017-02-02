@@ -20,7 +20,7 @@
 <div class="container">
 
     <div class="header">
-        <h1>Nicholas Jewelery Store</h1>
+        <h1>Jewelery Store</h1>
         <a class="logo" href="http://www.facebook.com/" title="find us on Facebook"><img
                 alt="follow us on facebook" src="../Images/Other/facebook.png" width="50px" height="50px"></a>
     </div><!--End of header div--->
@@ -34,13 +34,14 @@
 
         <div class="chooser">
             <h2>
-             Browse our products by categories!
+                Browse our products by categories!
             </h2>
 
             <h2 class="Selections">
-                <a href="#middle" id = "MenLink" class="SelectionLink" onclick="ShowMen();">MEN</a>
-                <a href="#middle" id = "WomenLink" class="SelectionLink" onclick="ShowWomen();">WOMEN</a>
-                <a href="#middle" id = "AccessoriesLink" class="SelectionLink" onclick="ShowAccessories();">ACCESSORIES</a>
+                <a href="#middle" id="MenLink" class="SelectionLink" onclick="ShowMen();">MEN</a>
+                <a href="#middle" id="WomenLink" class="SelectionLink" onclick="ShowWomen();">WOMEN</a>
+                <a href="#middle" id="AccessoriesLink" class="SelectionLink"
+                   onclick="ShowAccessories();">ACCESSORIES</a>
             </h2>
         </div>
 
@@ -50,36 +51,36 @@
                 <p id="text1"></p>
             </div>
             <div class="product-sliderImg">
-                <a id="link2" href=""><img id="img2"alt="innerImg"class="innerImg"/></a>
+                <a id="link2" href=""><img id="img2" alt="innerImg" class="innerImg"/></a>
                 <p id="text2"></p>
             </div>
             <!--<div class="product-sliderImg">-->
-                <!--<a href="Products/Watches.html"><img id="img3" src="ProductImages/necklace.jpeg" alt="innerImg"-->
-                                                     <!--class="innerImg"/></a>-->
-                <!--<p id="text3">-->
-                    <!--<a href="Products/Watches.html">Watches</a>-->
-                <!--</p>-->
+            <!--<a href="Products/Watches.html"><img id="img3" src="ProductImages/necklace.jpeg" alt="innerImg"-->
+            <!--class="innerImg"/></a>-->
+            <!--<p id="text3">-->
+            <!--<a href="Products/Watches.html">Watches</a>-->
+            <!--</p>-->
             <!--</div>-->
             <!--<div class="product-sliderImg">-->
-                <!--<a href="Products/Watches.html"><img id="img4" src="ProductImages/ring.jpg" alt="innerImg"-->
-                                                     <!--class="innerImg"/></a>-->
-                <!--<p id="text4">-->
-                    <!--<a href="Products/Watches.html">Watches</a>-->
-                <!--</p>-->
+            <!--<a href="Products/Watches.html"><img id="img4" src="ProductImages/ring.jpg" alt="innerImg"-->
+            <!--class="innerImg"/></a>-->
+            <!--<p id="text4">-->
+            <!--<a href="Products/Watches.html">Watches</a>-->
+            <!--</p>-->
             <!--</div>-->
             <!--<div class="product-sliderImg">-->
-                <!--<a href="Products/Watches.html"><img id="img5" src="ProductImages/wallet.jpg" alt="innerImg"-->
-                                                     <!--class="innerImg"/></a>-->
-                <!--<p id="text5">-->
-                    <!--<a href="Products/Watches.html">Watches</a>-->
-                <!--</p>-->
+            <!--<a href="Products/Watches.html"><img id="img5" src="ProductImages/wallet.jpg" alt="innerImg"-->
+            <!--class="innerImg"/></a>-->
+            <!--<p id="text5">-->
+            <!--<a href="Products/Watches.html">Watches</a>-->
+            <!--</p>-->
             <!--</div>-->
             <!--<div class="product-sliderImg">-->
-                <!--<a href="Products/Watches.html"><img id="img6" src="ProductImages/zippo.jpg" alt="innerImg"-->
-                                                     <!--class="innerImg"/></a>-->
-                <!--<p id="text6">-->
-                    <!--<a href="Products/Watches.html">Watches</a>-->
-                <!--</p>-->
+            <!--<a href="Products/Watches.html"><img id="img6" src="ProductImages/Zippo.jpg" alt="innerImg"-->
+            <!--class="innerImg"/></a>-->
+            <!--<p id="text6">-->
+            <!--<a href="Products/Watches.html">Watches</a>-->
+            <!--</p>-->
             <!--</div>-->
         </div><!--End of products div--->
 
@@ -97,6 +98,13 @@
                 </p>
             </div><!--End of Description div--->
         </div><!--End of mainContent div--->
+
+        <div class="Ads">
+            <br>
+            <img src="../Images/Advertisments/adv2.jpg" width="300" height="200">
+            <img src="../Images/Advertisments/adv3.jpg" width="300" height="200">
+            <img src="../Images/Advertisments/adv4.png" width="300" height="200">
+        </div>
 
 
         <div class="Bottom">
@@ -156,9 +164,11 @@
                     <h2>Contact Us</h2>
                 </div>
                 <div class="modal-body">
-                    <p>Nicholas Jewelery shop is a shop located in Limassol Cyprus. Directions to find us can be found by using the map in our Main Page.</p>
+                    <p>Nicholas Jewelery shop is a shop located in Limassol Cyprus. Directions to find us can be found
+                        by using the map in our Main Page.</p>
                     <p>Meanwhile you can browse our website to see what products we have to offer and their prices</p>
-                    <p>Contact us form is also provided on the bottom of the Main Page where you can send us an email for any enquires you have</p>
+                    <p>Contact us form is also provided on the bottom of the Main Page where you can send us an email
+                        for any enquires you have</p>
                     <p>We would like to see you in person</p>
                 </div>
                 <div class="modal-footer">
@@ -167,8 +177,45 @@
             </div>
         </div>
 
+        <div id="ProductModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span id="ProductsClose" class="close">&times;</span>
+                    <h2>PRODUCT TYPE</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="Product">
+                        <div class="image">
+                            <a href="#middle"><img src="../Images/ProductImages/Men/MenWatch.jpeg" alt="innerImg" class="innerImg"/></a>
+                        </div>
+                        <div class="details">
+                            <p>Name: asdasfadgfa </p>
+                            <p>Brand: </p>
+                            <p>Color: </p>
+                            <p>Price: </p>
+                        </div>
+                    </div>
+                    <div class="ProductDetails">
+                        <div class="Product">
+                            <div class="image">
+                                <a href="#middle"><img src="../Images/ProductImages/Men/MenWatch.jpeg" alt="innerImg" class="innerImg"/></a>
+                            </div>
+                            <div class="details">
+                                <p>Name: </p>
+                                <p>Brand: </p>
+                                <p>Color: </p>
+                                <p>Price: </p>
+                            </div>
+                        </div>
+                    </div>
 
-        <!--</div>&lt;!&ndash;Buttom&ndash;&gt;-->
+                </div>
+                <div class="modal-footer">
+                    <h3>Hope you find what you are looking for</h3>
+                </div>
+            </div>
+        </div>
 
     </main>
 </div><!--End of container div--->
@@ -177,14 +224,11 @@
 </body>
 
 <footer>
-
     <script src="../JavaScript/slider.js"></script>
     <script src="../JavaScript/ProductChooserButtons.js"></script>
     <script src="../JavaScript/snackbar.js"></script>
     <script src="../JavaScript/ContactUsModal.js"></script>
     <script src="../JavaScript/AboutUsModal.js"></script>
-    <script src="../JavaScript/RateUsModal.js"></script>
-
-
+    <script src="../JavaScript/ProductModal.js"></script>
 </footer>
 </html>

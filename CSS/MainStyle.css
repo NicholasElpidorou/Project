@@ -8,7 +8,7 @@ body {
     padding: 0;
     /*background-color: #CACACA;*/
     /*background-image:url("../Images/Other/1.jpg");*/
-    background-image:url("../Images/Other/4.png")
+    background-image: url("../Images/Other/4.png")
 
 }
 
@@ -54,7 +54,7 @@ main {
 /**********CHOOSER OF THE PAGE**********/
 
 .chooser {
-    padding-top:50px;
+    padding-top: 50px;
 }
 
 .chooser .Selections {
@@ -123,9 +123,9 @@ main {
     text-align: center;
 }
 
-.Bottom a{
+.Bottom a {
     text-decoration: none;
-    color:#0095a5;
+    color: #0095a5;
 }
 
 /* The Modal (background) */
@@ -206,9 +206,9 @@ main {
 }
 
 .modal-body {
-    padding-top:10px;
+    padding-top: 10px;
     padding-right: 25px;
-    padding-left:4px;
+    padding-left: 4px;
     /*padding: 2px 16px;*/
 }
 
@@ -239,9 +239,9 @@ fieldset textarea {
     cursor: pointer;
     width: 40%;
     border: none;
-    color:white;
+    color: white;
     background: #0095a5;
-    margin-left:5px;
+    margin-left: 5px;
     margin-right: 5px;
     /*margin: 0 0 5px;*/
     /*padding: 10px;*/
@@ -249,15 +249,11 @@ fieldset textarea {
 
 }
 
-
-
 .modal-footer {
     padding: 2px 16px;
     background-color: #0095a5;
     color: white;
 }
-
-
 
 /*==================First Breakpoint==================*/
 @media screen and (min-width: 580px) {
@@ -270,8 +266,28 @@ fieldset textarea {
 
     }
 
-    .modal-content{
-        width:40%;
+    .modal-content {
+        width: 40%;
+    }
+
+    #ProductModal .modal-content {
+        width: 40%;
+    }
+
+    #ProductModal .modal-content {
+        background-color: pink;
+        text-align: left;
+        /*display: inline-block;*/
+
+    }
+
+    #ProductModal .modal-content .modal-body .image {
+        display: inline-block;
+    }
+
+    #ProductModal .modal-content .modal-body .details {
+        /*background-color:green;*/
+        float: right;
     }
 
 }
@@ -304,6 +320,12 @@ fieldset textarea {
         text-align: left;
     }
 
+    .ads img.resize {
+        height:100px;
+        width:100px;
+        background-color: pink;
+    }
+
     .Bottom {
         /*display:inline-block;*/
     }
@@ -312,7 +334,7 @@ fieldset textarea {
         float: left;
     }
 
-    .Bottom .middle{
+    .Bottom .middle {
         display: inline-block;
     }
 
@@ -321,12 +343,14 @@ fieldset textarea {
     }
 
     .Bottom .right img {
-        width:50px;
+        width: 50px;
     }
 
-    .modal-content{
-        width:25%;
+    .modal-content {
+        width: 25%;
     }
+
+
 }
 
 /*==================END OF Second Breakpoint==================*/
