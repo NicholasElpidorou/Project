@@ -255,6 +255,16 @@ fieldset textarea {
     color: white;
 }
 
+#ProductModal .modal-content {
+    /*background-color: green;*/
+
+}
+
+#ProductModal .modal-content .modal-body .Product {
+
+    padding-bottom:50px;
+}
+
 /*==================First Breakpoint==================*/
 @media screen and (min-width: 580px) {
 
@@ -275,19 +285,8 @@ fieldset textarea {
     }
 
     #ProductModal .modal-content {
-        background-color: pink;
-        text-align: left;
-        /*display: inline-block;*/
+        /*background-color: green;*/
 
-    }
-
-    #ProductModal .modal-content .modal-body .image {
-        display: inline-block;
-    }
-
-    #ProductModal .modal-content .modal-body .details {
-        /*background-color:green;*/
-        float: right;
     }
 
 }
@@ -321,9 +320,8 @@ fieldset textarea {
     }
 
     .ads img.resize {
-        height:100px;
-        width:100px;
-        background-color: pink;
+        height: 100px;
+        width: 100px;
     }
 
     .Bottom {
@@ -350,6 +348,24 @@ fieldset textarea {
         width: 25%;
     }
 
+    #ProductModal .modal-content {
+        width: 42%;
+        /*background-color: yellow;*/
+        text-align: left;
+
+    }
+
+
+
+    #ProductModal .modal-content .modal-body .image {
+        display: inline-block;
+    }
+
+    #ProductModal .modal-content .modal-body .details {
+        /*background-color:green;*/
+        float: right;
+        /*text-align: ;*/
+    }
 
 }
 

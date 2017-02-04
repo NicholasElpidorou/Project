@@ -4,13 +4,13 @@
 
 //CONTACT US MODAL
 
-// Get the modal
-var modal = document.getElementById("ContactUsModal");
+// Get the AboutUsModal
+var ContactUsModal = document.getElementById("ContactUsModal");
 
-// Get the button that opens the modal
-var btn = document.getElementById("ContactUs");
+// Get the button that opens the AboutUsModal
+var ContactUsLink = document.getElementById("ContactUs");
 
-// Get the <span> element that closes the modal
+// Get the <span> element that closes the AboutUsModal
 var span = document.getElementsByClassName("close")[0];
 
 //get the<button> element that user submits his form
@@ -21,20 +21,20 @@ var txtName = document.getElementById("Name");
 var txtEmail = document.getElementById("Email");
 var txtDescription = document.getElementById("Description");
 
-// When the user clicks the button, open the modal
-btn.onclick = function() {
-    modal.style.display = "block";
+// When the user clicks the button, open the AboutUsModal
+ContactUsLink.onclick = function() {
+    ContactUsModal.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
+// When the user clicks on <span> (x), close the AboutUsModal
 span.onclick = function() {
-    modal.style.display = "none";
+    ContactUsModal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
+// When the user clicks anywhere outside of the AboutUsModal, close it
 window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
+    if (event.target == ContactUsModal) {
+        ContactUsModal.style.display = "none";
     }
 }
 
@@ -50,8 +50,8 @@ window.onclick = function(event) {
 
 //When the user clicks submit button
 btnSubmit.onclick = function () {
-    // modal.reset();
-    modal.style.display = "none";
+    // AboutUsModal.reset();
+    ContactUsModal.style.display = "none";
     SnackBar();
 }
 
