@@ -3,21 +3,66 @@
 body {
     font-family: "Roboto", Helvetica, Arial, sans-serif;
     font-weight: 100;
-
     margin: 0;
     padding: 0;
-    /*background-color: #CACACA;*/
-    /*background-image:url("../Images/Other/1.jpg");*/
-    background-image: url("../Images/Other/4.png")
+    background-image: url("../Images/Other/LoaderBackground.jpg");
 
 }
 
+
+
+/**********************************LOADER***************************************************/
+#loader {
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+
+}
+
+
+/* Add animation to "page content" */
+.container {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+    to {
+        bottom: 0px;
+        opacity: 1
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+/**********************************LOADER***************************************************/
+
 .container { /*this is for mobile devices*/
-    /*background-color:red;*/
     max-width: 1120px;
     margin: 0 auto;
     margin-top: 20px;
     text-align: center;
+    display: none;
 }
 
 /**********HEADER OF THE PAGE**********/
@@ -262,7 +307,7 @@ fieldset textarea {
 
 #ProductModal .modal-content .modal-body .Product {
 
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
 
 /*==================First Breakpoint==================*/
@@ -354,8 +399,6 @@ fieldset textarea {
         text-align: left;
 
     }
-
-
 
     #ProductModal .modal-content .modal-body .image {
         display: inline-block;

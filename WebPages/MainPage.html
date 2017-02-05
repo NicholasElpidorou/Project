@@ -15,9 +15,13 @@
 
 
 </head>
-<body>
+<body onload="loader()" id="body">
 
-<div class="container">
+<div id="loader">
+    <img src="../Images/Other/welcome.png">
+</div>
+
+<div class="container" id="container">
 
     <div class="header">
         <h1>Jewelery Store</h1>
@@ -187,7 +191,8 @@
                 <div class="modal-body">
                     <div class="Product">
                         <div class="image">
-                            <a href="#middle"><img src="../Images/ProductImages/Men/MenWatch.jpeg" alt="innerImg" class="innerImg"/></a>
+                            <a href="#middle"><img src="../Images/ProductImages/Men/MenWatch.jpeg" alt="innerImg"
+                                                   class="innerImg"/></a>
                         </div>
                         <div class="details">
                             <p>Name: asdasfadgfaasdasfadgfaasdasfadgfa </p>
@@ -199,10 +204,11 @@
                     <div class="ProductDetails">
                         <div class="Product">
                             <div class="image">
-                                <a href="#middle"><img src="../Images/ProductImages/Men/MenWatch.jpeg" alt="innerImg" class="innerImg"/></a>
+                                <a href="#middle"><img src="../Images/ProductImages/Men/MenWatch.jpeg" alt="innerImg"
+                                                       class="innerImg"/></a>
                             </div>
                             <div class="details">
-                                <p>Name:  </p>
+                                <p>Name: </p>
                                 <p>Brand: </p>
                                 <p>Color: </p>
                                 <p>Price: </p>
@@ -231,5 +237,7 @@
     <script src="../JavaScript/Modals/ContactUsModal.js"></script>
     <script src="../JavaScript/Modals/AboutUsModal.js"></script>
     <script src="../JavaScript/Modals/ProductModal.js"></script>
+
+    <script src="../JavaScript/loader.js"></script>
 </footer>
 </html>
