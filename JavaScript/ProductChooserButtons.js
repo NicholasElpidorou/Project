@@ -7,46 +7,46 @@
 
     function ShowMen() {
 
-    var myObj, i, j, x,y = "";
+    // var myObj, i, j, x,y = "";
+    //
+    //
+    // myObj = {
+    //     "MenProducts":[
+    //         {"name":"watches","image":"../Images/ProductImages/Men/MenWatch.jpeg"},
+    //         {"name":"Bracelets","image":"../Images/ProductImages/Men/MenBracelet.jpg"},
+    //     ],
+    //     "WomanProducts":[
+    //         {"name":"Necklaces","image":"../Images/ProductImages/Woman/WomanNecklace.jpeg"},
+    //         {"name":"Rings","image":"../Images/ProductImages/Woman/WomanRing.jpg"},
+    //     ],
+    //     "Accessories":[
+    //         {"name":"Key Rings","image":"../Images/ProductImages/Accessories/KeyRing.jpeg"},
+    //         {"name":"Zippos","image":"../Images/ProductImages/Accessories/Zippos.jpg"},
+    //     ]
+    // }
 
-
-    myObj = {
-        "MenProducts":[
-            {"name":"watches","image":"../Images/ProductImages/Men/MenWatch.jpeg"},
-            {"name":"Bracelets","image":"../Images/ProductImages/Men/MenBracelet.jpg"},
-        ],
-        "WomanProducts":[
-            {"name":"Necklaces","image":"../Images/ProductImages/Woman/WomanNecklace.jpeg"},
-            {"name":"Rings","image":"../Images/ProductImages/Woman/WomanRing.jpg"},
-        ],
-        "Accessories":[
-            {"name":"Key Rings","image":"../Images/ProductImages/Accessories/KeyRing.jpeg"},
-            {"name":"Zippos","image":"../Images/ProductImages/Accessories/Zippos.jpg"},
-        ]
-    }
-
-
-    let image = document.getElementById("img1");
-    let text = document.getElementById("text1");
-
-    for (i in myObj.MenProducts){
-        x+=myObj.MenProducts[i].name;
-        y+=myObj.MenProducts[i].image;
-    }
-
-    text.innerHTML = x;
-    image.src= y
-
+    //
+    // let image = document.getElementById("img1");
+    // let text = document.getElementById("text1");
+    //
+    // // for (i in myObj.MenProducts){
+    //     x+=myObj.MenProducts[0].name;
+    //     y+=myObj.MenProducts[0].image;
+    // // }
+    //
+    // text.innerHTML = x;
+    // image.src= y
+    //
 
 
     document.getElementById("products").style.display = 'block';
 
-        // document.getElementById("img1").src = "../Images/ProductImages/Men/MenWatch.jpeg"
-        // document.getElementById("text1").innerHTML = 'Watches'
-        //
-        // document.getElementById("img2").src = "../Images/ProductImages/Men/MenBracelet.jpg"
-        // // document.getElementById("link2").href = "ProductPages/Men/Bracelets.html"
-        // document.getElementById("text2").innerHTML = 'Bracelets'
+        document.getElementById("img1").src = "../Images/ProductImages/Men/MenWatch.jpeg"
+        document.getElementById("text1").innerHTML = 'Watches'
+
+        document.getElementById("img2").src = "../Images/ProductImages/Men/MenBracelet.jpg"
+        // document.getElementById("link2").href = "ProductPages/Men/Bracelets.html"
+        document.getElementById("text2").innerHTML = 'Bracelets'
 
         document.getElementById("MenLink").style.backgroundColor = 'black';
         document.getElementById("WomenLink").style.backgroundColor = 'transparent';
