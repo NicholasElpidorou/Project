@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8315f12f-4098-493d-828e-befacab39a7b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Json/MyData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Json/ProductDetails.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/MainStyle.css" afterPath="$PROJECT_DIR$/CSS/MainStyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript/Modals/AboutUsModal.js" afterPath="$PROJECT_DIR$/JavaScript/Modals/AboutUsModal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript/Modals/ContactUsModal.js" afterPath="$PROJECT_DIR$/JavaScript/Modals/ContactUsModal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript/Modals/ProductModal.js" afterPath="$PROJECT_DIR$/JavaScript/Modals/ProductModal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript/ProductChooserButtons.js" afterPath="$PROJECT_DIR$/JavaScript/ProductChooserButtons.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript/slider.js" afterPath="$PROJECT_DIR$/JavaScript/slider.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebPages/MainPage.html" afterPath="$PROJECT_DIR$/WebPages/MainPage.html" />
     </list>
     <ignored path="FEWD 2nd assignment.iws" />
@@ -42,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainPage.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainPage.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebPages/MainPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2476">
-              <caret line="239" column="44" selection-start-line="239" selection-start-column="44" selection-end-line="239" selection-end-column="44" />
+            <state relative-caret-position="332">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
               <folding>
                 <element signature="n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -81,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductModal.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProductModal.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript/Modals/ProductModal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="304">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -169,10 +158,10 @@
         <option value="$PROJECT_DIR$/CSS/SlideShow.css" />
         <option value="$PROJECT_DIR$/JavaScript/Modals/ContactUsModal.js" />
         <option value="$PROJECT_DIR$/JavaScript/Modals/AboutUsModal.js" />
-        <option value="$PROJECT_DIR$/JavaScript/Modals/ProductModal.js" />
         <option value="$PROJECT_DIR$/CSS/MainStyle.css" />
-        <option value="$PROJECT_DIR$/WebPages/MainPage.html" />
         <option value="$PROJECT_DIR$/JavaScript/Products.js" />
+        <option value="$PROJECT_DIR$/JavaScript/Modals/ProductModal.js" />
+        <option value="$PROJECT_DIR$/WebPages/MainPage.html" />
       </list>
     </option>
   </component>
@@ -391,12 +380,12 @@
       <workItem from="1486421154581" duration="1055000" />
       <workItem from="1486467207055" duration="3431000" />
       <workItem from="1486475377223" duration="9611000" />
-      <workItem from="1487027360233" duration="5611000" />
+      <workItem from="1487027360233" duration="5667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94986000" />
+    <option name="totallyTimeSpent" value="95042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="79" y="38" width="1281" height="840" extended-state="0" />
@@ -654,21 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebPages/MainPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2476">
-          <caret line="239" column="44" selection-start-line="239" selection-start-column="44" selection-end-line="239" selection-end-column="44" />
-          <folding>
-            <element signature="n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/ProductChooserButtons.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -679,9 +653,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/Modals/ProductModal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="304">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebPages/MainPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding>
+            <element signature="n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
