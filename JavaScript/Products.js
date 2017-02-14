@@ -2,6 +2,11 @@
  * Created by NicholasElpidorou on 14/02/2017.
  */
 
+
+var ProductModal = document.getElementById("ProductModal");
+
+
+
 var ProductTitle = document.getElementById("ProductType");
 
 var ProductImg1 = document.getElementById("ProductImg1");
@@ -39,5 +44,75 @@ var txtPrice4 = document.getElementById("txtPrice4");
 function MenWatches(){
 
     ProductTitle.innerHTML = "Watches"
+
+    var OpenProduct1 = document.getElementById("img1");
+
+    OpenProduct1.onclick = function() {
+        ProductModal.style.display = "block";
+        main.style.opacity = "0.5";
+        main.style.position = "fixed";
+    }
+
+    ProductImg1.src="../Images/ProductImages/Men/Watches/MenWatch1.jpeg"
+    txtName1.innerHTML="Name:"
+    txtBrand1.innerHTML="Brand:"
+    txtColor1.innerHTML="Color:"
+    txtPrice1.innerHTML="Price:"
+
+    ProductImg2.src="../Images/ProductImages/Men/Watches/MenWatch2.jpeg"
+    txtName2.innerHTML="Name:"
+    txtBrand2.innerHTML="Brand:"
+    txtColor2.innerHTML="Color:"
+    txtPrice2.innerHTML="Price:"
+
+    ProductImg3.src="../Images/ProductImages/Men/Watches/MenWatch3.jpg"
+    txtName3.innerHTML="Name:"
+    txtBrand3.innerHTML="Brand:"
+    txtColor3.innerHTML="Color:"
+    txtPrice3.innerHTML="Price:"
+
+    ProductImg4.src="../Images/ProductImages/Men/Watches/MenWatch4.jpeg"
+    txtName4.innerHTML="Name:"
+    txtBrand4.innerHTML="Brand:"
+    txtColor4.innerHTML="Color:"
+    txtPrice4.innerHTML="Price:"
+
+}
+
+function MenBracelets(){
+
+    ProductTitle.innerHTML = "Bracelets"
+
+    var OpenProduct2 = document.getElementById("img2");
+
+    OpenProduct2.onclick = function() {
+        ProductModal.style.display = "block";
+        main.style.opacity = "0.5";
+        main.style.position = "fixed";
+    }
+
+    ProductImg1.src="../Images/ProductImages/Men/Bracelets/MenBracelet1.png"
+    txtName1.innerHTML="Name:"
+    txtBrand1.innerHTML="Brand:"
+    txtColor1.innerHTML="Color:"
+    txtPrice1.innerHTML="Price:"
+
+    ProductImg2.src="../Images/ProductImages/Men/Bracelets/MenBracelet2.jpg"
+    txtName2.innerHTML="Name:"
+    txtBrand2.innerHTML="Brand:"
+    txtColor2.innerHTML="Color:"
+    txtPrice2.innerHTML="Price:"
+
+    ProductImg3.src="../Images/ProductImages/Men/Bracelets/MenBracelet3.jpg"
+    txtName3.innerHTML="Name:"
+    txtBrand3.innerHTML="Brand:"
+    txtColor3.innerHTML="Color:"
+    txtPrice3.innerHTML="Price:"
+
+    ProductImg4.src="../Images/ProductImages/Men/Bracelets/MenBracelet4.jpg"
+    txtName4.innerHTML="Name:"
+    txtBrand4.innerHTML="Brand:"
+    txtColor4.innerHTML="Color:"
+    txtPrice4.innerHTML="Price:"
 
 }

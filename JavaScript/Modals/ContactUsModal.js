@@ -20,9 +20,9 @@ var CloseContactUs = document.getElementById("ContactUsClose");
 var btnSubmit = document.getElementById("contact-submit");
 
 //get textFields element so user does not let them blank
-var txtName = document.getElementById("Name");
-var txtEmail = document.getElementById("Email");
-var txtDescription = document.getElementById("Description");
+var txtName = document.getElementById("UserName");
+var txtEmail = document.getElementById("UserEmail");
+var txtDescription = document.getElementById("UserDescription");
 
 // When the user clicks the button, open the AboutUsModal
 OpenContactUs.onclick = function() {
@@ -38,28 +38,23 @@ CloseContactUs.onclick = function() {
     main.style.opacity = "1";
 }
 
-// When the user clicks anywhere outside of the AboutUsModal, close it
-
-
-// txtEmail.addEventListener("keyup",function (event) {
-//     if (txtEmail.validity.typeMismatch){
-//         txtEmail.setCustomValidity("Please enter an email address!");
-//     }else {
-//         txtEmail.setCustomValidity("");
-//     }
-// });
-
 
 
 //When the user clicks submit button
 btnSubmit.onclick = function () {
-    // AboutUsModal.reset();
+    validateForm();
     ContactUsModal.style.display = "none";
     main.style.position = "relative";
     main.style.opacity = "1";
     SnackBar();
 }
 
+function validateForm(){
+    if(txtName==""){
+        alert("Name must be filled out");
+        return false;
+    }
+}
 
 window.onclick = function(event) {
     if (event.target == ContactUsModal) {

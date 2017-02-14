@@ -36,7 +36,7 @@
             <a class="logo" href="http://www.facebook.com/" title="find us on Facebook"><img
                     alt="follow us on facebook" src="../Images/Other/facebook.png" width="50px" height="50px"></a>
         </div><!--End of header div--->
-        
+
         <div class="slider">
             <img src="../Images/SliderImages/image1.jpg" name="slider">
         </div>
@@ -148,17 +148,17 @@
                     <h2>Contact Us</h2>
                 </div>
                 <div class="modal-body">
-                    <fieldset id="#Name">
-                        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-                    </fieldset>
-                    <fieldset id="#Email">
-                        <input placeholder="Your Email Address" type="email" tabindex="2" required>
-                    </fieldset>
-                    <fieldset id="#Description">
-                        <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+                    <fieldset>
+                        <input type="text" id="UserName" placeholder="Your name" tabindex="1" required>
                     </fieldset>
                     <fieldset>
-                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                        <input type="email" id="UserEmail" placeholder="Your Email Address"  tabindex="2" required>
+                    </fieldset>
+                    <fieldset>
+                        <textarea id="UserDescription" placeholder="Type your message here...." tabindex="3" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <button type="submit" name="submit" id="contact-submit">Submit</button>
                     </fieldset>
                 </div>
                 <div class="modal-footer">
@@ -262,5 +262,6 @@
     <script src="../JavaScript/Modals/ProductModal.js"></script>
 
     <script src="../JavaScript/loader.js"></script>
+    <Script src="../JavaScript/Products.js"></Script>
 </footer>
 </html>

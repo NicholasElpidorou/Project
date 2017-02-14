@@ -6,6 +6,9 @@ function ShowMen() {
 
     document.getElementById("products").style.display='block';
 
+
+
+
     document.getElementById("img1").src = "../Images/ProductImages/Men/MenWatch.jpeg"
     // document.getElementById("link1").href = "ProductPages/Men/Watches.html"
     document.getElementById("text1").innerHTML = 'Watches'
@@ -17,12 +20,16 @@ function ShowMen() {
     document.getElementById("MenLink").style.backgroundColor = 'black';
     document.getElementById("WomenLink").style.backgroundColor = 'transparent';
     document.getElementById("AccessoriesLink").style.backgroundColor = 'transparent';
+
+    document.getElementById("link1").onclick = MenWatches();
+    document.getElementById("link2").onclick = MenBracelets();
+
 }
+
 
 function ShowWomen() {
 
-    // var link1 = document.getElementById("link1");
-    // var link2 = document.getElementById("link2");
+
 
     document.getElementById("products").style.display='block';
 
@@ -38,15 +45,14 @@ function ShowWomen() {
     document.getElementById("WomenLink").style.backgroundColor = 'black';
     document.getElementById("AccessoriesLink").style.backgroundColor = 'transparent';
 
-    // window.open(link1.href,'_blank');
-    // // window.open(link2.href,'_blank');
-    //
-    // link.innerHTML = "facebook"
-    // link1.setAttribute('href',"http://facebook.com");
-    // return false;
+    document.getElementById("link1").onclick= WomenNecklaces()
+    document.getElementById("link2").onclick= WomenRings()
 }
 
 function ShowAccessories() {
+
+
+
     document.getElementById("products").style.display='block';
 
     document.getElementById("img1").src = "../Images/ProductImages/Accessories/KeyRing.jpg"
@@ -60,4 +66,7 @@ function ShowAccessories() {
     document.getElementById("MenLink").style.backgroundColor = 'transparent';
     document.getElementById("WomenLink").style.backgroundColor = 'transparent';
     document.getElementById("AccessoriesLink").style.backgroundColor = 'black';
+
+    document.getElementById("link1").onclick= AccessoriesKeyRings()
+    document.getElementById("link2").onclick= AccessoriesZippoes()
 }

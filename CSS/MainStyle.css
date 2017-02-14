@@ -253,6 +253,11 @@ fieldset textarea {
     padding-bottom: 50px;
 }
 
+#ProductModal .modal-content .modal-body .Product img{
+    width:200px;
+    height:200px;
+}
+
 /*==================First Breakpoint==================*/
 @media screen and (min-width: 580px) {
 
