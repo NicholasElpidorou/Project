@@ -6,23 +6,24 @@ function ShowMen() {
 
     document.getElementById("products").style.display='block';
 
-    document.getElementById("img1").src = "../Images/ProductImages/Men/MenWatch.jpeg"
-    // document.getElementById("link1").href = "ProductPages/Men/Watches.html"
-    document.getElementById("text1").innerHTML = 'Watches'
+    document.getElementById("img1").src = "../Images/ProductImages/Men/MenWatch.jpeg";
+    document.getElementById("text1").innerHTML = 'Watches';
 
-    document.getElementById("img2").src = "../Images/ProductImages/Men/MenBracelet.jpg"
-    // document.getElementById("link2").href = "ProductPages/Men/Bracelets.html"
-    document.getElementById("text2").innerHTML = 'Bracelets'
+    document.getElementById("img2").src = "../Images/ProductImages/Men/MenBracelet.jpg";
+    document.getElementById("text2").innerHTML = 'Bracelets';
 
     document.getElementById("MenLink").style.backgroundColor = 'black';
     document.getElementById("WomenLink").style.backgroundColor = 'transparent';
     document.getElementById("AccessoriesLink").style.backgroundColor = 'transparent';
+
+    document.getElementById("link1").onclick = MenWatches();
+    document.getElementById("link2").onclick = MenBracelets();
 }
 
 function ShowWomen() {
 
-    // var link1 = document.getElementById("link1");
-    // var link2 = document.getElementById("link2");
+    document.getElementById("link1").onclick= WomenNecklaces();
+    document.getElementById("link2").onclick= WomenRings();
 
     document.getElementById("products").style.display='block';
 
@@ -47,6 +48,10 @@ function ShowWomen() {
 }
 
 function ShowAccessories() {
+
+    document.getElementById("link1").onclick= AccessoriesKeyRings();
+    document.getElementById("link2").onclick= AccessoriesZippoes();
+
     document.getElementById("products").style.display='block';
 
     document.getElementById("img1").src = "../Images/ProductImages/Accessories/KeyRing.jpg"
