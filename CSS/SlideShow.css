@@ -1,0 +1,32 @@
+/**********SLIDER OF THE PAGE**********/
+
+/*JUST TO SEE HOW IT WILL BE*/
+/*.slider {*/
+    /*width: 100%;*/
+    /*height: 400px;*/
+/*}*/
+
+.slider img {
+    width: 100%;
+    height: 400px;
+    box-shadow: 10px 10px 5px #666666;
+
+}
+
+/* Fading animation */
+/*.slider {*/
+    /*-webkit-animation-name: fade;*/
+    /*-webkit-animation-duration: 1.5s;*/
+    /*animation-name: fade;*/
+    /*animation-duration: 1.5s;*/
+/*}*/
+
+/*@-webkit-keyframes fade {*/
+    /*from {opacity: .4}*/
+    /*to {opacity: 1}*/
+/*}*/
+
+/*@keyframes fade {*/
+    /*from {opacity: .4}*/
+    /*to {opacity: 1}*/
+/*}*/

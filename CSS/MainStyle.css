@@ -1,90 +1,13 @@
 /*GLOBAL AND MOBILE STYLE */
 
 body {
-    /*font-family: "Roboto", Helvetica, Arial, sans-serif;*/
-    /*font-family: Arial,Helvetica,sans-serif;*/
-    /*font-weight: normal;*/
-    /*text-shadow: 2px 2px 2px #333;*/
-    /*font-weight: 100;*/
     margin: 0;
     padding: 0;
-    /*background-color: black;*/
     background-image: url("../Images/Other/1.jpg");
-    /*background-repeat: no-repeat;*/
-
-}
-
-/**********************************LOADER***************************************************/
-
-#loader{
 
 }
 
 
-.bg-img {
-    /*margin-top:10%;*/
-}
-
-
-
-.animatedText {
-    text-align: left;
-    margin-left:20px;
-    /*padding-left: 10%;*/
-    font-size: 90px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    color: #FFF;
-    text-shadow: 2px 2px 2px #333;
-    animation: fadeAndScale .5s ease-in;
-    transform-origin: center bottom;
-}
-
-@keyframes fadeAndScale {
-    from {
-        opacity: 0;
-        transform: scale3d(.75, .75, 1)
-    }
-    to {
-        opacity: 1;
-        transform: scale3d(1, 1, 1);
-    }
-}
-
-/* Add animation to "page content" */
-.container main {
-    position: relative;
-    -webkit-animation-name: animatebottom;
-    -webkit-animation-duration: 2s;
-    animation-name: animatebottom;
-    animation-duration: 1s
-}
-
-@-webkit-keyframes animatebottom {
-    from {
-        bottom: -100px;
-        opacity: 0
-    }
-    to {
-        bottom: 0px;
-        opacity: 1
-    }
-}
-
-@keyframes animatebottom {
-    from {
-        bottom: -100px;
-        opacity: 0
-    }
-    to {
-        bottom: 0;
-        opacity: 1
-    }
-}
-
-
-
-/**********************************LOADER***************************************************/
 
 .container { /*this is for mobile devices*/
     max-width: 1120px;
@@ -114,20 +37,7 @@ main {
     padding-right: 10px
 }
 
-/**********SLIDER OF THE PAGE**********/
 
-/*JUST TO SEE HOW IT WILL BE*/
-.slider {
-    width: 100%;
-    height: 400px;
-}
-
-.slider img {
-    width: 100%;
-    height: 400px;
-    box-shadow: 10px 10px 5px #666666;
-
-}
 
 /**********CHOOSER OF THE PAGE**********/
 
@@ -339,7 +249,7 @@ fieldset textarea {
 }
 
 #ProductModal .modal-content .modal-body .Product {
-
+    display: inline-block;
     padding-bottom: 50px;
 }
 
@@ -427,24 +337,24 @@ fieldset textarea {
     }
 
     #ProductModal .modal-content {
-        width: 40%;
+        width: 60%;
         /*background-color: yellow;*/
-        text-align: left;
+        /*text-align: left;*/
 
     }
 
-    /*#ProductModal .modal-content .modal-body .image {*/
-    /*display: inline-block;*/
+    /*!*#ProductModal .modal-content .modal-body .image {*!*/
+    /*!*display: inline-block;*!*/
+    /*!*}*!*/
+    /*#ProductModal .modal-body {*/
+        /*display: inline-block;*/
     /*}*/
-    #ProductModal .modal-body {
-        display: inline-block;
-    }
 
-    #ProductModal .modal-content .modal-body .details {
-        /*background-color:green;*/
-        float: right;
-        /*text-align: ;*/
-    }
+    /*#ProductModal .modal-content .modal-body .details {*/
+        /*!*background-color:green;*!*/
+        /*float: right;*/
+        /*!*text-align: ;*!*/
+    /*}*/
 
 }
 

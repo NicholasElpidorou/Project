@@ -1,0 +1,71 @@
+/**********************************LOADER***************************************************/
+
+#loader{
+
+}
+
+
+.bg-img {
+    /*margin-top:10%;*/
+}
+
+
+
+.animatedText {
+    text-align: left;
+    margin-left:20px;
+    /*padding-left: 10%;*/
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #FFF;
+    text-shadow: 2px 2px 2px #333;
+    animation: fadeAndScale .5s ease-in;
+    transform-origin: center bottom;
+}
+
+@keyframes fadeAndScale {
+    from {
+        opacity: 0;
+        transform: scale3d(.75, .75, 1)
+    }
+    to {
+        opacity: 1;
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+/* Add animation to "page content" */
+.container main {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 2s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+    to {
+        bottom: 0px;
+        opacity: 1
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+
+
+/**********************************LOADER***************************************************/

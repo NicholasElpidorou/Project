@@ -21,6 +21,8 @@ function slideIt(){
         step = 1
     setTimeout("slideIt()",3000)
 
+
+
 }
  slideIt()
 

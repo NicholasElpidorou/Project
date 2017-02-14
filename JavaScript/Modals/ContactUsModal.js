@@ -4,14 +4,17 @@
 
 //CONTACT US MODAL
 
+var main = document.getElementById("main");
+
+
 // Get the AboutUsModal
 var ContactUsModal = document.getElementById("ContactUsModal");
 
 // Get the button that opens the AboutUsModal
-var ContactUsLink = document.getElementById("ContactUs");
+var OpenContactUs = document.getElementById("ContactUs");
 
 // Get the <span> element that closes the AboutUsModal
-var span = document.getElementsByClassName("close")[0];
+var CloseContactUs = document.getElementById("ContactUsClose");
 
 //get the<button> element that user submits his form
 var btnSubmit = document.getElementById("contact-submit");
@@ -22,21 +25,21 @@ var txtEmail = document.getElementById("Email");
 var txtDescription = document.getElementById("Description");
 
 // When the user clicks the button, open the AboutUsModal
-ContactUsLink.onclick = function() {
+OpenContactUs.onclick = function() {
     ContactUsModal.style.display = "block";
+    main.style.opacity = "0.5";
+    main.style.position = "fixed";
 }
 
 // When the user clicks on <span> (x), close the AboutUsModal
-span.onclick = function() {
+CloseContactUs.onclick = function() {
     ContactUsModal.style.display = "none";
+    main.style.position = "relative";
+    main.style.opacity = "1";
 }
 
 // When the user clicks anywhere outside of the AboutUsModal, close it
-window.onclick = function(event) {
-    if (event.target == ContactUsModal) {
-        ContactUsModal.style.display = "none";
-    }
-}
+
 
 // txtEmail.addEventListener("keyup",function (event) {
 //     if (txtEmail.validity.typeMismatch){
@@ -52,16 +55,16 @@ window.onclick = function(event) {
 btnSubmit.onclick = function () {
     // AboutUsModal.reset();
     ContactUsModal.style.display = "none";
+    main.style.position = "relative";
+    main.style.opacity = "1";
     SnackBar();
 }
 
-/**
- * Created by NicholasElpidorou on 24/01/2017.
- */
 
-
-//
-// window.onclick = function9even
-
-//
-
+window.onclick = function(event) {
+    if (event.target == ContactUsModal) {
+        ContactUsModal.style.display = "none";
+        main.style.position = "relative";
+        main.style.opacity = "1";
+    }
+}

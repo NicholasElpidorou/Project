@@ -4,37 +4,55 @@
 
 //CONTACT US MODAL
 
+var main = document.getElementById("main");
+
+
 // Get the AboutUsModal
 var ProductModal = document.getElementById("ProductModal");
 
 // Get the button that opens the AboutUsModal
-var ImageButton = document.getElementById("img1");
-var ImageButton2 = document.getElementById("img2");
+var OpenProduct1 = document.getElementById("img1");
+var OpenProduct2 = document.getElementById("img2");
 
 
 // Get the <span> element that closes the AboutUsModal
-var span = document.getElementsByClassName("close")[0];
+var CloseProduct = document.getElementById("ProductsClose");
 
 
 
 // When the user clicks the button, open the AboutUsModal
 
-ImageButton.onclick = function() {
+OpenProduct1.onclick = function() {
     ProductModal.style.display = "block";
+    main.style.opacity = "0.5";
+    main.style.position = "fixed";
+
+
+
 }
 
-ImageButton2.onclick = function () {
+OpenProduct2.onclick = function () {
+    main.style.opacity = "0.5";
     ProductModal.style.display = "block";
+    main.style.position = "fixed";
+    ProductModal.style.opacity = "1";
+
 }
 
 // When the user clicks on <span> (x), close the AboutUsModal
-span.onclick = function() {
+CloseProduct.onclick = function() {
     ProductModal.style.display = "none";
+    main.style.position = "relative";
+    main.style.opacity = "1";
+
+
 }
 
 // When the user clicks anywhere outside of the AboutUsModal, close it
-window.onclick = function(event) {
-    if (event.target == ProductModal) {
-        ProductModal.style.display = "none";
-    }
-}
+// window.onclick = function(event) {
+//     if (event.target == ProductModal) {
+//         ProductModal.style.display = "none";
+//         main.style.position = "relative";
+//         main.style.opacity = "1";
+//     }
+// }

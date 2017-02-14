@@ -2,14 +2,6 @@
  * Created by NicholasElpidorou on 22/01/2017.
  */
 
-
-// $(document).ready(function(){
-//     $("SelectionLink").click(function(){
-//         $("#products").fadeIn();
-//
-//     });
-// });
-
 function ShowMen() {
 
     document.getElementById("products").style.display='block';

@@ -8,17 +8,15 @@
     <link rel="stylesheet" type="text/css" href="../CSS/MainStyle.css"/>
     <!--<link rel="stylesheet" type="text/css" href="../CSS/ModalStyle.css"/>-->
     <link rel="stylesheet" type="text/css" href="../CSS/SnackBarStyle.css"/>
-    <link rel="stylesheet" type="text/css" href="../CSS/SliderStyle.css"/>
+    <link rel="stylesheet" type="text/css" href="../CSS/SlideShow.css"/>
+    <link rel="stylesheet" type="text/css" href="../CSS/Loader.css"/>
 
 
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic">
 
 
-
-
 </head>
 <body onload="loader()" id="body">
-
 
 
 <div class="container" id="container">
@@ -33,12 +31,11 @@
     </div>
 
     <main id="main">
-    <div class="header">
-        <h1>Jewelery Store</h1>
-        <a class="logo" href="http://www.facebook.com/" title="find us on Facebook"><img
-                alt="follow us on facebook" src="../Images/Other/facebook.png" width="50px" height="50px"></a>
-    </div><!--End of header div--->
-
+        <div class="header">
+            <h1>Jewelery Store</h1>
+            <a class="logo" href="http://www.facebook.com/" title="find us on Facebook"><img
+                    alt="follow us on facebook" src="../Images/Other/facebook.png" width="50px" height="50px"></a>
+        </div><!--End of header div--->
 
 
         <div class="slider">
@@ -142,8 +139,10 @@
 
         </div>
 
-        <div id="ContactUsModal" class="modal">
-            <!-- Modal content -->
+    </main>
+
+
+    <div id="ContactUsModal" class="modal">
             <div class="modal-content">
                 <div class="modal-header">
                     <span id="ContactUsClose" class="close">&times;</span>
@@ -170,7 +169,6 @@
         </div>
 
         <div id="AboutUsModal" class="modal">
-            <!-- Modal content -->
             <div class="modal-content">
                 <div class="modal-header">
                     <span id="AboutUsClose" class="close">&times;</span>
@@ -195,33 +193,51 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <span id="ProductsClose" class="close">&times;</span>
-                    <h2>PRODUCT TYPE</h2>
+                    <h2 id="ProductType">PRODUCT TYPE</h2>
                 </div>
                 <div class="modal-body">
                     <div class="Product">
                         <div class="image">
-                            <a href="#middle"><img src="../Images/ProductImages/Men/MenWatch.jpeg" alt="innerImg"
-                                                   class="innerImg"/></a>
+                            <a href="#middle"><img id="ProductImg1" src="" alt="innerImg" class="innerImg"/></a>
                         </div>
                         <div class="details">
-                            <p>Name: </p>
-                            <p>Brand: </p>
-                            <p>Color: </p>
-                            <p>Price: </p>
+                            <p id="txtName1">Name: </p>
+                            <p id="txtBrand1">Brand: </p>
+                            <p id="txtColor1">Color: </p>
+                            <p id="txtPrice1">Price: </p>
                         </div>
                     </div>
-                    <div class="ProductDetails">
-                        <div class="Product">
-                            <div class="image">
-                                <a href="#middle"><img src="../Images/ProductImages/Men/MenWatch.jpeg" alt="innerImg"
-                                                       class="innerImg"/></a>
-                            </div>
-                            <div class="details">
-                                <p>Name: </p>
-                                <p>Brand: </p>
-                                <p>Color: </p>
-                                <p>Price: </p>
-                            </div>
+                    <div class="Product">
+                        <div class="image">
+                            <a href="#middle"><img id="ProductImg2" src="" alt="innerImg" class="innerImg"/></a>
+                        </div>
+                        <div class="details">
+                            <p id="txtName2">Name: </p>
+                            <p id="txtBrand2">Brand: </p>
+                            <p id="txtColor2">Color: </p>
+                            <p id="txtPrice2">Price: </p>
+                        </div>
+                    </div>
+                    <div class="Product">
+                        <div class="image">
+                            <a href="#middle"><img id="ProductImg3" src="" alt="innerImg" class="innerImg"/></a>
+                        </div>
+                        <div class="details">
+                            <p id="txtName3">Name: </p>
+                            <p id="txtBrand3">Brand: </p>
+                            <p id="txtColor3">Color: </p>
+                            <p id="txtPrice3">Price: </p>
+                        </div>
+                    </div>
+                    <div class="Product">
+                        <div class="image">
+                            <a href="#middle"><img id="ProductImg4" src="" alt="innerImg" class="innerImg"/></a>
+                        </div>
+                        <div class="details">
+                            <p id="txtName4">Name: </p>
+                            <p id="txtBrand4">Brand: </p>
+                            <p id="txtColor4">Color: </p>
+                            <p id="txtPrice4">Price: </p>
                         </div>
                     </div>
 
@@ -232,7 +248,6 @@
             </div>
         </div>
 
-    </main>
 </div><!--End of container div--->
 
 
