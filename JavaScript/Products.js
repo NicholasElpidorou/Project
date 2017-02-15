@@ -205,34 +205,3 @@ function AccessoriesZippoes(){
 
 
 }
-
-function MenBracelets(){
-
-    ProductTitle.innerHTML = "Bracelets"
-
-}
-
-
-function WomenNecklaces(){
-
-    ProductTitle.innerHTML = "Necklaces"
-
-}
-
-function WomenRings(){
-
-    ProductTitle.innerHTML = "Rings"
-
-}
-
-function AccessoriesKeyRings(){
-
-    ProductTitle.innerHTML = "KeyRings"
-
-}
-
-function AccessoriesZippoes(){
-    ProductTitle.innerHTML = "Zippoes"
-
-
-}

@@ -22,8 +22,6 @@ function ShowMen() {
     document.getElementById("WomenLink").style.backgroundColor = 'transparent';
     document.getElementById("AccessoriesLink").style.backgroundColor = 'transparent';
 
-    document.getElementById("link1").onclick = MenWatches();
-    document.getElementById("link2").onclick = MenBracelets();
 
     link1.id = "watches";
     link2.id = "bracelets";
@@ -31,8 +29,6 @@ function ShowMen() {
 }
 
 
-    document.getElementById("link1").onclick= WomenNecklaces();
-    document.getElementById("link2").onclick= WomenRings();
 
 
 function ShowWomen() {
@@ -53,10 +49,6 @@ function ShowWomen() {
 }
 
 function ShowAccessories() {
-
-    document.getElementById("link1").onclick= AccessoriesKeyRings();
-    document.getElementById("link2").onclick= AccessoriesZippoes();
-
     document.getElementById("products").style.display='block';
 
     document.getElementById("img1").src = "../Images/ProductImages/Accessories/KeyRing.jpg";
