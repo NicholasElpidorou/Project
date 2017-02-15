@@ -3,9 +3,7 @@
  */
 
 //CONTACT US MODAL
-
 var main = document.getElementById("main");
-
 
 // Get the AboutUsModal
 var ContactUsModal = document.getElementById("ContactUsModal");
@@ -42,24 +40,33 @@ CloseContactUs.onclick = function() {
 
 //When the user clicks submit button
 btnSubmit.onclick = function () {
-    validateForm();
-    ContactUsModal.style.display = "none";
-    main.style.position = "relative";
-    main.style.opacity = "1";
-    SnackBar();
-}
 
-function validateForm(){
-    if(txtName==""){
-        alert("Name must be filled out");
-        return false;
-    }
-}
+    window.location.hash ="container";
 
-window.onclick = function(event) {
-    if (event.target == ContactUsModal) {
-        ContactUsModal.style.display = "none";
-        main.style.position = "relative";
-        main.style.opacity = "1";
+    // ContactUsModal.style.display = "none";
+    // main.style.position = "relative";
+    // main.style.opacity = "1";
+    //     SnackBar();
+        // ContactUsModal.style.display="none";
+        // main.style.position="relative";
+        // main.style.opacity="1";
     }
-}
+
+
+
+// }
+
+// function validateForm(){
+//     if(txtName ==" "){
+//         alert("Name must be filled out");
+//         return false;
+//     }
+// }
+
+// window.onclick = function(event) {
+//     if (event.target == ContactUsModal) {
+//         ContactUsModal.style.display = "none";
+//         main.style.position = "relative";
+//         main.style.opacity = "1";
+//     }
+// }

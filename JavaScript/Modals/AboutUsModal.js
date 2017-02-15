@@ -40,11 +40,11 @@ CloseAboutUs.onclick = function() {
     main.style.opacity = "1";
 }
 
-// When the user clicks anywhere outside of the AboutUsModal, close it
-window.onclick = function(event) {
-    if (event.target == AboutUsModal) {
-        AboutUsModal.style.display = "none";
-        main.style.position = "relative";
-        main.style.opacity = "1";
-    }
-}
+// // When the user clicks anywhere outside of the AboutUsModal, close it
+// window.onclick = function(event) {
+//     if (event.target == AboutUsModal) {
+//         AboutUsModal.style.display = "none";
+//         main.style.position = "relative";
+//         main.style.opacity = "1";
+//     }
+// }

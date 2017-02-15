@@ -6,7 +6,6 @@
     <title>Nicholas Jewelery shop</title>
 
     <link rel="stylesheet" type="text/css" href="../CSS/MainStyle.css"/>
-    <!--<link rel="stylesheet" type="text/css" href="../CSS/ModalStyle.css"/>-->
     <link rel="stylesheet" type="text/css" href="../CSS/SnackBarStyle.css"/>
     <link rel="stylesheet" type="text/css" href="../CSS/SlideShow.css"/>
     <link rel="stylesheet" type="text/css" href="../CSS/Loader.css"/>
@@ -17,7 +16,6 @@
 
 </head>
 <body onload="loader()" id="body">
-
 
 <div class="container" id="container">
 
@@ -111,106 +109,111 @@
 
 
     <div id="ContactUsModal" class="modal">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <span id="ContactUsClose" class="close">&times;</span>
-                    <h2>Contact Us</h2>
-                </div>
-                <div class="modal-body">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span id="ContactUsClose" class="close">&times;</span>
+                <h2>Contact Us</h2>
+            </div>
+            <div class="modal-body">
+                <form>
                     <fieldset>
-                        <input type="text" id="UserName" placeholder="Your name" tabindex="1" required>
+                        <input type="text" name="UserName" id="UserName" placeholder="Your name" tabindex="1" required>
                     </fieldset>
                     <fieldset>
-                        <input type="email" id="UserEmail" placeholder="Your Email Address"  tabindex="2" required>
+                        <input type="email" name="Email" id="UserEmail" placeholder="Your Email Address" tabindex="2"
+                               required>
                     </fieldset>
                     <fieldset>
-                        <textarea id="UserDescription" placeholder="Type your message here...." tabindex="3" required></textarea>
+                    <textarea name="description" id="UserDescription" placeholder="Type your message here...."
+                              tabindex="3"
+                              required></textarea>
                     </fieldset>
                     <fieldset>
                         <button type="submit" name="submit" id="contact-submit">Submit</button>
                     </fieldset>
-                </div>
-                <div class="modal-footer">
-                    <h3>We will contact you as soon as possible!</h3>
-                </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <h3>We will contact you as soon as possible!</h3>
             </div>
         </div>
+    </div>
 
-        <div id="AboutUsModal" class="modal">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <span id="AboutUsClose" class="close">&times;</span>
-                    <h2>About Us</h2>
-                </div>
-                <div class="modal-body">
-                    <p>Nicholas Jewelery shop is a shop located in Limassol Cyprus. Directions to find us can be found
-                        by using the map in our Main Page.</p>
-                    <p>Meanwhile you can browse our website to see what products we have to offer and their prices</p>
-                    <p>Contact us form is also provided on the bottom of the Main Page where you can send us an email
-                        for any enquires you have</p>
-                    <p>We would like to see you in person</p>
-                </div>
-                <div class="modal-footer">
-                    <h3>For any enquires contact us!!</h3>
-                </div>
+    <div id="AboutUsModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span id="AboutUsClose" class="close">&times;</span>
+                <h2>About Us</h2>
+            </div>
+            <div class="modal-body">
+                <p>Nicholas Jewelery shop is a shop located in Limassol Cyprus. Directions to find us can be found
+                    by using the map in our Main Page.</p>
+                <p>Meanwhile you can browse our website to see what products we have to offer and their prices</p>
+                <p>Contact us form is also provided on the bottom of the Main Page where you can send us an email
+                    for any enquires you have</p>
+                <p>We would like to see you in person</p>
+            </div>
+            <div class="modal-footer">
+                <h3>For any enquires contact us!!</h3>
             </div>
         </div>
+    </div>
 
-        <div id="ProductModal" class="modal">
-            <!-- Modal content -->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <span id="ProductsClose" class="close">&times;</span>
-                    <h2 id="ProductType">PRODUCT TYPE</h2>
+    <div id="ProductModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span id="ProductsClose" class="close">&times;</span>
+                <h2 id="ProductType">PRODUCT TYPE</h2>
+            </div>
+            <div class="modal-body">
+                <div class="Product">
+                    <div class="image">
+                        <a href="#middle"><img id="ProductImg1" src="" alt="innerImg" class="innerImg"/></a>
+                    </div>
+                    <div class="details">
+                        <p id="txtBrand1">Brand: </p>
+                        <p id="txtColor1">Color: </p>
+                        <p id="txtPrice1">Price: </p>
+                    </div>
                 </div>
-                <div class="modal-body">
-                    <div class="Product">
-                        <div class="image">
-                            <a href="#middle"><img id="ProductImg1" src="" alt="innerImg" class="innerImg"/></a>
-                        </div>
-                        <div class="details">
-                            <p id="txtBrand1">Brand: </p>
-                            <p id="txtColor1">Color: </p>
-                            <p id="txtPrice1">Price: </p>
-                        </div>
+                <div class="Product">
+                    <div class="image">
+                        <a href="#middle"><img id="ProductImg2" src="" alt="innerImg" class="innerImg"/></a>
                     </div>
-                    <div class="Product">
-                        <div class="image">
-                            <a href="#middle"><img id="ProductImg2" src="" alt="innerImg" class="innerImg"/></a>
-                        </div>
-                        <div class="details">
-                            <p id="txtBrand2">Brand: </p>
-                            <p id="txtColor2">Color: </p>
-                            <p id="txtPrice2">Price: </p>
-                        </div>
+                    <div class="details">
+                        <p id="txtBrand2">Brand: </p>
+                        <p id="txtColor2">Color: </p>
+                        <p id="txtPrice2">Price: </p>
                     </div>
-                    <div class="Product">
-                        <div class="image">
-                            <a href="#middle"><img id="ProductImg3" src="" alt="innerImg" class="innerImg"/></a>
-                        </div>
-                        <div class="details">
-                            <p id="txtBrand3">Brand: </p>
-                            <p id="txtColor3">Color: </p>
-                            <p id="txtPrice3">Price: </p>
-                        </div>
+                </div>
+                <div class="Product">
+                    <div class="image">
+                        <a href="#middle"><img id="ProductImg3" src="" alt="innerImg" class="innerImg"/></a>
                     </div>
-                    <div class="Product">
-                        <div class="image">
-                            <a href="#middle"><img id="ProductImg4" src="" alt="innerImg" class="innerImg"/></a>
-                        </div>
-                        <div class="details">
-                            <p id="txtBrand4">Brand: </p>
-                            <p id="txtColor4">Color: </p>
-                            <p id="txtPrice4">Price: </p>
-                        </div>
+                    <div class="details">
+                        <p id="txtBrand3">Brand: </p>
+                        <p id="txtColor3">Color: </p>
+                        <p id="txtPrice3">Price: </p>
                     </div>
+                </div>
+                <div class="Product">
+                    <div class="image">
+                        <a href="#middle"><img id="ProductImg4" src="" alt="innerImg" class="innerImg"/></a>
+                    </div>
+                    <div class="details">
+                        <p id="txtBrand4">Brand: </p>
+                        <p id="txtColor4">Color: </p>
+                        <p id="txtPrice4">Price: </p>
+                    </div>
+                </div>
 
-                </div>
-                <div class="modal-footer">
-                    <h3>Hope you find what you are looking for</h3>
-                </div>
+            </div>
+            <div class="modal-footer">
+                <h3>Hope you find what you are looking for</h3>
             </div>
         </div>
+    </div>
 
 </div><!--End of container div--->
 
@@ -224,12 +227,12 @@
     <script src="../JavaScript/Modals/ContactUsModal.js"></script>
     <script src="../JavaScript/Modals/AboutUsModal.js"></script>
 
-    <Script src="../JavaScript/Products.js"></Script>
+    <Script src="../JavaScript/ProductData.js"></Script>
     <script src="../JavaScript/Modals/ProductModal.js"></script>
-    <script src="../JavaScript/ProductChooserButtons.js"></script>
+    <script src="../JavaScript/CategoryChooser.js"></script>
 
 
     <script src="../JavaScript/loader.js"></script>
-    <script src="../JavaScript/Products.js"></script>
+    <script src="../JavaScript/ProductData.js"></script>
 </footer>
 </html>
