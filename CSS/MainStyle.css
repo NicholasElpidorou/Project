@@ -46,7 +46,7 @@ main {
 }
 
 .chooser .Selections {
-    background-color: #666666;
+    background-color: #074A4F;
     width: 100%;
 }
 
@@ -62,7 +62,7 @@ main {
 
 .chooser a:hover,
 .chooser a.here {
-    color: #0095a5;
+    color: grey;
 
 }
 
@@ -71,7 +71,10 @@ main {
     border-style: solid;
     border-color: white;
     margin-bottom: 10px;
-    background-color: #666666;
+    background-image: url("../Images/Other/backgroundImage2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*background-color: #666666;*/
     color: white;
 }
 
@@ -85,7 +88,7 @@ main {
 .products .product-sliderImg img:hover {
     /*-moz-box-shadow: 0 0 100px #ccc;*/
     /*-webkit-box-shadow: 0 0 100px #ccc;*/
-    box-shadow: 0 0 40px #0095a5;
+    box-shadow: 0 0 40px black;
     transform: scale(1.2);
 
 }
