@@ -7,7 +7,7 @@ var change;
 function showPage(){
 
 
-    document.getElementById("body").style.backgroundImage = "url(../Images/Other/4.png)";
+    document.getElementById("body").style.backgroundImage = "url(Images/Other/MainPageBackground.png)";
     document.getElementById("loader").style.display = "none";
     document.getElementById("main").style.display = "block";
 

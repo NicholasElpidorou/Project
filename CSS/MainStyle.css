@@ -3,22 +3,24 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("../Images/Other/1.jpg");
+    background-image: url("../Images/Other/LoaderBackground.jpg");
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 
 }
-
-
 
 .container { /*this is for mobile devices*/
     max-width: 1120px;
     margin: 0 auto;
     margin-top: 20px;
     text-align: center;
-    /*display: none;*/
 }
 
 .container main {
     display: none;
+}
+
+.loader .h1 {
+    font-size: 5px;
 }
 
 /**********HEADER OF THE PAGE**********/
@@ -30,14 +32,18 @@ body {
     float: right;
     margin-top: 10px;
     margin-right: 10px;
+
+}
+
+.header .logo img {
+    width: 50px;
+    height: 50px;
 }
 
 main {
     padding-left: 10px;
     padding-right: 10px
 }
-
-
 
 /**********CHOOSER OF THE PAGE**********/
 
@@ -70,11 +76,12 @@ main {
     display: none;
     border-style: solid;
     border-color: white;
+    border-radius: 2em;
+
     margin-bottom: 10px;
-    background-image: url("../Images/Other/backgroundImage2.png");
+    background-image: url("../Images/Other/ProductsBackground.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    /*background-color: #666666;*/
     color: white;
 }
 
@@ -86,8 +93,6 @@ main {
 }
 
 .products .product-sliderImg img:hover {
-    /*-moz-box-shadow: 0 0 100px #ccc;*/
-    /*-webkit-box-shadow: 0 0 100px #ccc;*/
     box-shadow: 0 0 40px black;
     transform: scale(1.2);
 
@@ -105,10 +110,15 @@ main {
 
 .mainContent .map iframe {
     width: 90%;
-    height: 400px;
+    height: 250px;
 }
 
 /**********Buttom OF THE PAGE**********/
+
+.Ads img {
+    height:200px;
+    width:200px;
+}
 
 .Bottom {
     text-align: center;
@@ -125,6 +135,7 @@ main {
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
     padding-top: 100px; /* Location of the box */
+    padding-bottom: 100px;
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -144,7 +155,6 @@ main {
     padding: 0;
     border: 1px solid #888;
     width: 70%;
-    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);*/
     -webkit-animation-name: animatetop; /*This code is for animation*/
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
@@ -200,7 +210,6 @@ main {
     padding-top: 10px;
     padding-right: 25px;
     padding-left: 4px;
-    /*padding: 2px 16px;*/
 }
 
 fieldset {
@@ -234,8 +243,6 @@ fieldset textarea {
     background: #0095a5;
     margin-left: 5px;
     margin-right: 5px;
-    /*margin: 0 0 5px;*/
-    /*padding: 10px;*/
     font-size: 15px;
 
 }
@@ -246,8 +253,9 @@ fieldset textarea {
     color: white;
 }
 
-#ProductModal .modal-content {
-    /*background-color: green;*/
+#ProductModal {
+    position: relative;
+    background-color: transparent;
 
 }
 
@@ -256,9 +264,9 @@ fieldset textarea {
     padding-bottom: 50px;
 }
 
-#ProductModal .modal-content .modal-body .Product img{
-    width:200px;
-    height:200px;
+#ProductModal .modal-content .modal-body .Product img {
+    width: 150px;
+    height: 150px;
 }
 
 /*==================First Breakpoint==================*/
@@ -272,17 +280,9 @@ fieldset textarea {
 
     }
 
-    .modal-content {
-        width: 40%;
-    }
-
-    #ProductModal .modal-content {
-        width: 40%;
-    }
-
-    #ProductModal .modal-content {
-        /*background-color: green;*/
-
+    .mainContent .map iframe {
+        width: 90%;
+        height: 350px;
     }
 
 }
@@ -315,15 +315,6 @@ fieldset textarea {
         text-align: left;
     }
 
-    .ads img.resize {
-        height: 100px;
-        width: 100px;
-    }
-
-    .Bottom {
-        /*display:inline-block;*/
-    }
-
     .Bottom .left {
         float: left;
     }
@@ -345,24 +336,11 @@ fieldset textarea {
     }
 
     #ProductModal .modal-content {
-        width: 60%;
+        width: 90%;
         /*background-color: yellow;*/
         /*text-align: left;*/
 
     }
-
-    /*!*#ProductModal .modal-content .modal-body .image {*!*/
-    /*!*display: inline-block;*!*/
-    /*!*}*!*/
-    /*#ProductModal .modal-body {*/
-        /*display: inline-block;*/
-    /*}*/
-
-    /*#ProductModal .modal-content .modal-body .details {*/
-        /*!*background-color:green;*!*/
-        /*float: right;*/
-        /*!*text-align: ;*!*/
-    /*}*/
 
 }
 

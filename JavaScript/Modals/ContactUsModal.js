@@ -34,6 +34,9 @@ CloseContactUs.onclick = function() {
     ContactUsModal.style.display = "none";
     main.style.position = "relative";
     main.style.opacity = "1";
+
+    event.preventDefault();
+    return false;
 }
 
 

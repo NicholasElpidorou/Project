@@ -22,6 +22,9 @@ link1.onclick = function() {
     ProductModal.style.display = "block";
     main.style.opacity = "0.5";
     main.style.position = "fixed";
+    ProductModal.style.opacity = "1";
+
+
 
     if(link1.id == "watches"){
         MenWatches();

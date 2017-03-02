@@ -1,13 +1,13 @@
 
 
 var image1 = new Image()
-image1.src="../Images/SliderImages/image1.jpg";
+image1.src="Images/SliderImages/image1.jpg";
 var image2 = new Image()
-image2.src="../Images/SliderImages/image2.jpeg";
+image2.src="Images/SliderImages/image2.jpeg";
 var image3 = new Image()
-image3.src="../Images/SliderImages/image3.jpg";
+image3.src="Images/SliderImages/image3.jpg";
 var image4 = new Image()
-image4.src="../Images/SliderImages/image4.jpg";
+image4.src="Images/SliderImages/image4.jpg";
 
 
 

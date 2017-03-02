@@ -6,7 +6,6 @@
     <title>Nicholas Jewelery shop</title>
 
     <link rel="stylesheet" type="text/css" href="CSS/MainStyle.css"/>
-    <link rel="stylesheet" type="text/css" href="CSS/SnackBarStyle.css"/>
     <link rel="stylesheet" type="text/css" href="CSS/SlideShow.css"/>
     <link rel="stylesheet" type="text/css" href="CSS/Loader.css"/>
 
@@ -19,19 +18,20 @@
 
 <div class="container" id="container">
 
-    <div id="loader">
-        <h1 class="animatedText">Welcome</h1>
-        <h1 id="animated2" class="animatedText">To our shop!</h1>
+    <div class="loader" id="loader">
+        <p class="animatedText">Welcome</p>
+        <p id="animated2" class="animatedText">To our shop!</p>
     </div>
 
     <main id="main">
         <div class="header">
             <h1>Jewelery Store</h1>
-            <a class="logo" href="http://www.facebook.com/" title="find us on Facebook"><img alt="follow us on facebook" src="Images/Other/facebook.png"></a>
+            <a class="logo" href="http://www.facebook.com/" title="find us on Facebook"><img alt="follow us on facebook"
+                                                                                             src="Images/Other/facebook.png"></a>
         </div>  <!--End of header div-->
 
         <div class="slider">
-            <img src="Images/SliderImages/image1.jpg" name="slider">
+            <img src="Images/SliderImages/image1.jpg" id="slider" alt="slider">
         </div>
 
 
@@ -50,15 +50,15 @@
 
         <div class="products" id="products">
             <div class="product-sliderImg">
-                <a id="link1"><img name="img1" id="img1" alt="innerImg" class="innerImg"/></a>
+                <a id="link1"><img src="#" alt="product"/></a>
                 <p id="text1"></p>
             </div>
             <div class="product-sliderImg">
-                <a id="link2"><img name="img2" id="img2" alt="innerImg" class="innerImg"/></a>
+                <a id="link2"><img src="#" alt="product"/></a>
                 <p id="text2"></p>
             </div>
 
-        </div><!--End of products div--->
+        </div>  <!--End of products div-->
 
         <div class="mainContent">
             <div class="map">
@@ -71,15 +71,15 @@
                     using the map provided on the left.</p>
                 <p>Meanwhile you can browse our website to see what products we have to offer and their prices.</p>
                 <p>We would like to see you in person</p>
-                </p>
-            </div><!--End of Description div--->
-        </div><!--End of mainContent div--->
+
+            </div>  <!--End of Description div-->
+        </div>  <!--End of mainContent div-->
 
         <div class="Ads">
             <br>
-            <img src="Images/Advertisments/adv2.jpg" width="300" height="200">
-            <img src="Images/Advertisments/adv3.jpg" width="300" height="200">
-            <img src="Images/Advertisments/adv4.png" width="300" height="200">
+            <img src="Images/Advertisments/adv2.jpg" alt="advertisment1">
+            <img src="Images/Advertisments/adv3.jpg" alt="advertisment2">
+            <img src="Images/Advertisments/adv4.png" alt="advertisment3">
         </div>
 
         <div class="Bottom">
@@ -91,16 +91,14 @@
             </div>
 
             <div class="left">
-                <strong><p><a href="#bottom" id="ContactUs">Contact Form</a></p></strong>
-                <strong><p><a href="#bottom" id="AboutUs">About us</a></p></strong>
+                <p><a href="#bottom" id="ContactUs">Contact Form</a></p>
+                <p><a href="#bottom" id="AboutUs">About us</a></p>
             </div>
 
             <div class="right">
-                <!--<strong><p><a href="#bottom" id="RateUs">Rate Us</a></p></strong>-->
                 <a class="logo" href="http://www.facebook.com/" title="find us on Facebook"><img
-                        alt="follow us on facebook" src="Images/Other/facebook.png" width="50px" height="50px"></a>
+                        alt="follow us on facebook" src="Images/Other/facebook.png"></a>
             </div>
-            <div id="snackbar">Email Sent thank you</div>
 
         </div>
 
@@ -168,7 +166,7 @@
             <div class="modal-body">
                 <div class="Product">
                     <div class="image">
-                        <a href="#middle"><img id="ProductImg1" src="" alt="innerImg" class="innerImg"/></a>
+                        <a href="#middle"><img id="ProductImg1" src="#" alt="innerImg" class="innerImg"/></a>
                     </div>
                     <div class="details">
                         <p id="txtBrand1">Brand: </p>
@@ -178,7 +176,7 @@
                 </div>
                 <div class="Product">
                     <div class="image">
-                        <a href="#middle"><img id="ProductImg2" src="" alt="innerImg" class="innerImg"/></a>
+                        <a href="#middle"><img id="ProductImg2" src="#" alt="innerImg" class="innerImg"/></a>
                     </div>
                     <div class="details">
                         <p id="txtBrand2">Brand: </p>
@@ -188,7 +186,7 @@
                 </div>
                 <div class="Product">
                     <div class="image">
-                        <a href="#middle"><img id="ProductImg3" src="" alt="innerImg" class="innerImg"/></a>
+                        <a href="#middle"><img id="ProductImg3" src="#" alt="innerImg" class="innerImg"/></a>
                     </div>
                     <div class="details">
                         <p id="txtBrand3">Brand: </p>
@@ -198,7 +196,7 @@
                 </div>
                 <div class="Product">
                     <div class="image">
-                        <a href="#middle"><img id="ProductImg4" src="" alt="innerImg" class="innerImg"/></a>
+                        <a href="#middle"><img id="ProductImg4" src="#" alt="innerImg" class="innerImg"/></a>
                     </div>
                     <div class="details">
                         <p id="txtBrand4">Brand: </p>
@@ -211,19 +209,12 @@
             <div class="modal-footer">
                 <h3>Hope you find what you are looking for</h3>
             </div>
-        </div><!--Modal body end-->
-    </div><!--Product Modal end-->
-</div><!--End of container div--->
-
-
-</body>
-
-
-
+        </div>  <!--Modal body end-->
+    </div>  <!--Product Modal end-->
+</div>  <!--End of container div-->
 
 <footer>
     <script src="JavaScript/slider.js"></script>
-    <script src="JavaScript/snackbar.js"></script>
 
     <script src="JavaScript/Modals/ContactUsModal.js"></script>
     <script src="JavaScript/Modals/AboutUsModal.js"></script>
@@ -236,4 +227,8 @@
     <script src="JavaScript/loader.js"></script>
     <script src="JavaScript/ProductData.js"></script>
 </footer>
+
+</body>
+
+
 </html>
