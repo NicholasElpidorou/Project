@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("../Images/Other/LoaderBackground.jpg");
+    background-image: url("../images/other/loader_background.jpg");
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 
 }
@@ -23,6 +23,11 @@ body {
     font-size: 5px;
 }
 
+main {
+    padding-left: 10px;
+    padding-right: 10px
+}
+
 /**********HEADER OF THE PAGE**********/
 .header h1 {
     display: inline-block;
@@ -40,12 +45,9 @@ body {
     height: 50px;
 }
 
-main {
-    padding-left: 10px;
-    padding-right: 10px
-}
 
-/**********CHOOSER OF THE PAGE**********/
+
+/**********Category CHOOSER OF THE PAGE**********/
 
 .chooser {
     padding-top: 50px;
@@ -72,21 +74,21 @@ main {
 
 }
 
+/**********products of the website**********/
+
 .products { /*Products div is not displayed unless clicked*/
     display: none;
     border-style: solid;
     border-color: white;
     border-radius: 2em;
-
     margin-bottom: 10px;
-    background-image: url("../Images/Other/ProductsBackground.png");
+    background-image: url("../images/other/products_background.png");
     background-repeat: no-repeat;
     background-size: 100%;
     color: white;
 }
 
 .products .product-sliderImg {
-
     padding-top: 10px;
     display: inline-block;
     margin: 10px;
@@ -103,7 +105,7 @@ main {
     width: 150px;
 }
 
-/**********MAIN CONTENT OF THE PAGE**********/
+/********** map and paragraph **********/
 .mainContent {
     width: 100%
 }
@@ -117,7 +119,7 @@ main {
 
 .Ads img {
     height:200px;
-    width:200px;
+    width:250px;
 }
 
 .Bottom {
@@ -276,10 +278,6 @@ fieldset textarea {
         /*background-color:green;*/
     }
 
-    .mainContent {
-
-    }
-
     .mainContent .map iframe {
         width: 90%;
         height: 350px;
@@ -289,14 +287,6 @@ fieldset textarea {
 
 /*==================Second Breakpoint==================*/
 @media screen and (min-width: 960px) {
-
-    .container {
-        /*background-color:gold;*/
-    }
-
-    .products {
-        /*padding-top: 10px;*/
-    }
 
     .product-sliderImg {
         width: 30%;
@@ -337,9 +327,6 @@ fieldset textarea {
 
     #ProductModal .modal-content {
         width: 90%;
-        /*background-color: yellow;*/
-        /*text-align: left;*/
-
     }
 
 }

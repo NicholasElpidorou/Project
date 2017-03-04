@@ -12,11 +12,11 @@ var link2 = document.getElementById("link2");
 function ShowMen() {
     document.getElementById("products").style.display='block';
 
-    document.getElementById("img1").src = "Images/ProductImages/Men/MenWatch.jpeg";
-    document.getElementById("text1").innerHTML = 'Watches';
+    document.getElementById("img1").src = "images/product_images/men/men_watch.jpeg";
+    document.getElementById("text1").innerHTML = 'watches';
 
-    document.getElementById("img2").src = "Images/ProductImages/Men/MenBracelet.jpg";
-    document.getElementById("text2").innerHTML = 'Bracelets';
+    document.getElementById("img2").src = "images/product_images/men/men_bracelet.jpg";
+    document.getElementById("text2").innerHTML = 'bracelets';
 
     document.getElementById("MenLink").style.backgroundColor = 'black';
     document.getElementById("WomenLink").style.backgroundColor = 'transparent';
@@ -34,11 +34,11 @@ function ShowMen() {
 function ShowWomen() {
     document.getElementById("products").style.display='block';
 
-    document.getElementById("img1").src = "Images/ProductImages/Women/WomanNecklace.jpeg";
+    document.getElementById("img1").src = "images/product_images/women/woman_necklace.jpeg";
     document.getElementById("text1").innerHTML = 'Necklace'
 
-    document.getElementById("img2").src = "Images/ProductImages/Women/WomanRing.jpg";
-    document.getElementById("text2").innerHTML = 'Rings'
+    document.getElementById("img2").src = "images/product_images/women/woman_ring.jpg";
+    document.getElementById("text2").innerHTML = 'rings'
 
     document.getElementById("MenLink").style.backgroundColor = 'transparent';
     document.getElementById("WomenLink").style.backgroundColor = 'black';
@@ -51,10 +51,10 @@ function ShowWomen() {
 function ShowAccessories() {
     document.getElementById("products").style.display='block';
 
-    document.getElementById("img1").src = "Images/ProductImages/Accessories/KeyRing.jpg";
-    document.getElementById("text1").innerHTML = 'Key Rings';
+    document.getElementById("img1").src = "images/product_images/accessories/KeyRing.jpg";
+    document.getElementById("text1").innerHTML = 'Key rings';
 
-    document.getElementById("img2").src = "Images/ProductImages/Accessories/Zippo.jpg";
+    document.getElementById("img2").src = "images/product_images/accessories/Zippo.jpg";
     document.getElementById("text2").innerHTML = 'Zippo';
 
     document.getElementById("MenLink").style.backgroundColor = 'transparent';
