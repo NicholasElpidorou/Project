@@ -49,7 +49,6 @@ https://github.com/NicholasElpidorou/Project/tree/Json2
 References of code
 for the loader : http://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_loader5
 for the slide show: http://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow
-for the modals: 
 
 
  
