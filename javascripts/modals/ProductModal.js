@@ -14,7 +14,7 @@ var link2 = document.getElementById("link2");
 // Get the <span> element that closes the ProductModal
 var CloseProduct = document.getElementById("ProductsClose");
 
-// Get the button that opens the AboutUsModal
+// Get the button that opens the ProductModal
 var OpenProduct1 = document.getElementById("img1");
 var OpenProduct2 = document.getElementById("img2");
 
@@ -24,8 +24,6 @@ link1.onclick = function() {
     main.style.position = "fixed";
     ProductModal.style.opacity = "1";
 
-
-
     if(link1.id == "watches"){
         MenWatches();
     }else if(link1.id == "necklaces"){
@@ -33,9 +31,7 @@ link1.onclick = function() {
     }else if(link1.id == "keyRings"){
         AccessoriesKeyRings();
     }
-
 }
-
 
 link2.onclick = function () {
     main.style.opacity = "0.5";
@@ -50,27 +46,11 @@ link2.onclick = function () {
     }else if(link2.id == "zippoes"){
         AccessoriesZippoes();
     }
-
 }
-
-
-
-
 
 // When the user clicks on <span> (x), close the AboutUsModal
 CloseProduct.onclick = function() {
     ProductModal.style.display = "none";
     main.style.position = "relative";
     main.style.opacity = "1";
-
-
 }
-
-// When the user clicks anywhere outside of the AboutUsModal, close it
-// window.onclick = function(event) {
-//     if (event.target == ProductModal) {
-//         ProductModal.style.display = "none";
-//         main.style.position = "relative";
-//         main.style.opacity = "1";
-//     }
-// }

@@ -40,12 +40,10 @@ main {
 
 }
 
-.header .logo img {
+.logo img {
     width: 50px;
     height: 50px;
 }
-
-
 
 /**********Category CHOOSER OF THE PAGE**********/
 
@@ -92,6 +90,8 @@ main {
     padding-top: 10px;
     display: inline-block;
     margin: 10px;
+
+
 }
 
 .products .product-sliderImg img:hover {
@@ -101,9 +101,10 @@ main {
 }
 
 .products .product-sliderImg img {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
 }
+
 
 /********** map and paragraph **********/
 .mainContent {
@@ -118,8 +119,8 @@ main {
 /**********Buttom OF THE PAGE**********/
 
 .Ads img {
-    height:200px;
-    width:250px;
+    height: 150px;
+    width: 200px;
 }
 
 .Bottom {
@@ -131,24 +132,22 @@ main {
     color: #0095a5;
 }
 
-/* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
+    position: relative;
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 100px;
     padding-bottom: 100px;
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
+    width: 100%;
+    height: 100%;
     overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0); /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
 
 }
 
-/* Modal Content */
 .modal-content {
 
     position: relative;
@@ -156,7 +155,7 @@ main {
     margin: auto;
     padding: 0;
     border: 1px solid #888;
-    width: 70%;
+    width: 60%;
     -webkit-animation-name: animatetop; /*This code is for animation*/
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
@@ -274,8 +273,14 @@ fieldset textarea {
 /*==================First Breakpoint==================*/
 @media screen and (min-width: 580px) {
 
-    .container {
-        /*background-color:green;*/
+    .products .product-sliderImg{
+        padding-left:50px;
+        padding-right:50px;
+    }
+
+    .products .product-sliderImg img {
+        height: 125px;
+        width: 125px;
     }
 
     .mainContent .map iframe {
@@ -283,13 +288,25 @@ fieldset textarea {
         height: 350px;
     }
 
+    .Ads img {
+        height: 175px;
+        width: 215px;
+    }
+
+    .modal-content {
+        width:60%;
+    }
+
 }
 
 /*==================Second Breakpoint==================*/
 @media screen and (min-width: 960px) {
 
-    .product-sliderImg {
-        width: 30%;
+
+
+    .products .product-sliderImg img {
+        height: 150px;
+        width: 150px;
     }
 
     .mainContent {
@@ -303,6 +320,11 @@ fieldset textarea {
 
     .mainContent .description {
         text-align: left;
+    }
+
+    .Ads img {
+        height: 200px;
+        width: 250px;
     }
 
     .Bottom .left {
@@ -322,7 +344,7 @@ fieldset textarea {
     }
 
     .modal-content {
-        width: 30%;
+        width: 40%;
     }
 
     #ProductModal .modal-content {

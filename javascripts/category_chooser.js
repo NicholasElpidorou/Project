@@ -7,10 +7,8 @@ var link1 = document.getElementById("link1");
 var link2 = document.getElementById("link2");
 
 
-
-
 function ShowMen() {
-    document.getElementById("products").style.display='block';
+    document.getElementById("products").style.display = 'block';
 
     document.getElementById("img1").src = "images/product_images/men/men_watch.jpeg";
     document.getElementById("text1").innerHTML = 'watches';
@@ -29,10 +27,8 @@ function ShowMen() {
 }
 
 
-
-
 function ShowWomen() {
-    document.getElementById("products").style.display='block';
+    document.getElementById("products").style.display = 'block';
 
     document.getElementById("img1").src = "images/product_images/women/woman_necklace.jpeg";
     document.getElementById("text1").innerHTML = 'Necklace'
@@ -49,7 +45,7 @@ function ShowWomen() {
 }
 
 function ShowAccessories() {
-    document.getElementById("products").style.display='block';
+    document.getElementById("products").style.display = 'block';
 
     document.getElementById("img1").src = "images/product_images/accessories/KeyRing.jpg";
     document.getElementById("text1").innerHTML = 'Key rings';

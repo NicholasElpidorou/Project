@@ -1,5 +1,3 @@
-
-
 var image1 = new Image()
 image1.src="images/slider_images/image1.jpg";
 var image2 = new Image()
@@ -8,8 +6,6 @@ var image3 = new Image()
 image3.src="images/slider_images/image3.jpg";
 var image4 = new Image()
 image4.src="images/slider_images/image4.jpg";
-
-
 
 var step = 1
 function slideIt(){
@@ -20,9 +16,6 @@ function slideIt(){
     else
         step = 1
     setTimeout("slideIt()",3000)
-
-
-
 }
  slideIt()
 

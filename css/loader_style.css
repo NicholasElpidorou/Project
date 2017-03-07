@@ -2,7 +2,7 @@
 
 .animatedText {
     text-align: left;
-    margin-left:20px;
+    margin-left: 20px;
     font-size: 50px;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-weight: normal;
@@ -53,7 +53,5 @@
         opacity: 1
     }
 }
-
-
 
 /**********************************LOADER***************************************************/

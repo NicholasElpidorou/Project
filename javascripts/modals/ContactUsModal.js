@@ -5,13 +5,13 @@
 //CONTACT US MODAL
 var main = document.getElementById("main");
 
-// Get the AboutUsModal
+// Get the ContactUsModel
 var ContactUsModal = document.getElementById("ContactUsModal");
 
-// Get the button that opens the AboutUsModal
+// Get the button that opens the ContactUsModel
 var OpenContactUs = document.getElementById("ContactUs");
 
-// Get the <span> element that closes the AboutUsModal
+// Get the <span> element that closes the ContactUsModel
 var CloseContactUs = document.getElementById("ContactUsClose");
 
 //get the<button> element that user submits his form
@@ -22,14 +22,14 @@ var txtName = document.getElementById("UserName");
 var txtEmail = document.getElementById("UserEmail");
 var txtDescription = document.getElementById("UserDescription");
 
-// When the user clicks the button, open the AboutUsModal
+// When the user clicks the button, open the ContactUsModel
 OpenContactUs.onclick = function() {
     ContactUsModal.style.display = "block";
     main.style.opacity = "0.5";
     main.style.position = "fixed";
 }
 
-// When the user clicks on <span> (x), close the AboutUsModal
+// When the user clicks on <span> (x), close the ContactUsModel
 CloseContactUs.onclick = function() {
     ContactUsModal.style.display = "none";
     main.style.position = "relative";

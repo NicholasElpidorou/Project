@@ -2,9 +2,6 @@
  * Created by NicholasElpidorou on 14/02/2017.
  */
 
-
-
-
 var ProductTitle = document.getElementById("ProductType");
 
 var ProductImg1 = document.getElementById("ProductImg1");
@@ -39,169 +36,160 @@ var txtColor4 = document.getElementById("txtColor4");
 var txtPrice4 = document.getElementById("txtPrice4");
 
 
-
-
-
-function MenWatches(){
+function MenWatches() {
 
     ProductTitle.innerHTML = "watches";
 
+    ProductImg1.src = "images/product_images/men/watches/men_watch1.jpeg";
+    txtBrand1.innerHTML = "Brand: Casio";
+    txtColor1.innerHTML = "Color: black";
+    txtPrice1.innerHTML = "Price: £40";
 
+    ProductImg2.src = "images/product_images/men/watches/men_watch2.jpeg";
+    txtBrand2.innerHTML = "Brand: Casio";
+    txtColor2.innerHTML = "Color: silver";
+    txtPrice2.innerHTML = "Price: £50";
 
-    ProductImg1.src="images/product_images/men/watches/men_watch1.jpeg";
-    txtBrand1.innerHTML="Brand: Casio";
-    txtColor1.innerHTML="Color: black";
-    txtPrice1.innerHTML="Price: £40";
+    ProductImg3.src = "images/product_images/men/watches/men_watch3.jpg";
+    txtBrand3.innerHTML = "Brand: Casio";
+    txtColor3.innerHTML = "Color: black/gold";
+    txtPrice3.innerHTML = "Price: £70";
 
-    ProductImg2.src="images/product_images/men/watches/men_watch2.jpeg";
-    txtBrand2.innerHTML="Brand: Casio";
-    txtColor2.innerHTML="Color: silver";
-    txtPrice2.innerHTML="Price: £50";
-
-    ProductImg3.src="images/product_images/men/watches/men_watch3.jpg";
-    txtBrand3.innerHTML="Brand: Casio";
-    txtColor3.innerHTML="Color: black/gold";
-    txtPrice3.innerHTML="Price: £70";
-
-    ProductImg4.src="images/product_images/men/watches/men_watch4.jpeg";
-    txtBrand4.innerHTML="Brand: Casio";
-    txtColor4.innerHTML="Color: silver";
-    txtPrice4.innerHTML="Price: £49";
+    ProductImg4.src = "images/product_images/men/watches/men_watch4.jpeg";
+    txtBrand4.innerHTML = "Brand: Casio";
+    txtColor4.innerHTML = "Color: silver";
+    txtPrice4.innerHTML = "Price: £49";
 
 }
 
-function MenBracelets(){
+function MenBracelets() {
 
     ProductTitle.innerHTML = "bracelets";
 
 
-
-    ProductImg1.src="images/product_images/men/bracelets/men_bracelet1.png";
+    ProductImg1.src = "images/product_images/men/bracelets/men_bracelet1.png";
     txtBrand1.style.display = "none";
-    txtColor1.innerHTML="Color: silver";
-    txtPrice1.innerHTML="Price: £30";
+    txtColor1.innerHTML = "Color: silver";
+    txtPrice1.innerHTML = "Price: £30";
 
-    ProductImg2.src="images/product_images/men/bracelets/men_bracelet2.jpg";
+    ProductImg2.src = "images/product_images/men/bracelets/men_bracelet2.jpg";
     txtBrand2.style.display = "none";
-    txtColor2.innerHTML="Color: silver/black";
-    txtPrice2.innerHTML="Price: £40";
+    txtColor2.innerHTML = "Color: silver/black";
+    txtPrice2.innerHTML = "Price: £40";
 
-    ProductImg3.src="images/product_images/men/bracelets/men_bracelet3.jpg";
+    ProductImg3.src = "images/product_images/men/bracelets/men_bracelet3.jpg";
     txtBrand3.style.display = "none";
-    txtColor3.innerHTML="Color: black";
-    txtPrice3.innerHTML="Price: £29";
+    txtColor3.innerHTML = "Color: black";
+    txtPrice3.innerHTML = "Price: £29";
 
-    ProductImg4.src="images/product_images/men/bracelets/men_bracelet4.jpg";
+    ProductImg4.src = "images/product_images/men/bracelets/men_bracelet4.jpg";
     txtBrand4.style.display = "none";
-    txtColor4.innerHTML="Color: silver";
-    txtPrice4.innerHTML="Price: £40";
+    txtColor4.innerHTML = "Color: silver";
+    txtPrice4.innerHTML = "Price: £40";
 
 }
 
-function WomenNecklaces(){
+function WomenNecklaces() {
 
     ProductTitle.innerHTML = "necklaces";
 
-    ProductImg1.src="images/product_images/women/necklaces/woman_necklace1.jpg";
+    ProductImg1.src = "images/product_images/women/necklaces/woman_necklace1.jpg";
     txtBrand1.style.display = "none";
-    txtColor1.innerHTML="Color: aqua";
-    txtPrice1.innerHTML="Price: £30";
+    txtColor1.innerHTML = "Color: aqua";
+    txtPrice1.innerHTML = "Price: £30";
 
-    ProductImg2.src="images/product_images/women/necklaces/woman_necklace2.jpg";
+    ProductImg2.src = "images/product_images/women/necklaces/woman_necklace2.jpg";
     txtBrand2.style.display = "none";
-    txtColor2.innerHTML="Color: aqua";
-    txtPrice2.innerHTML="Price: £40";
+    txtColor2.innerHTML = "Color: aqua";
+    txtPrice2.innerHTML = "Price: £40";
 
-    ProductImg3.src="images/product_images/women/necklaces/woman_necklace3.gif";
+    ProductImg3.src = "images/product_images/women/necklaces/woman_necklace3.gif";
     txtBrand3.style.display = "none";
-    txtColor3.innerHTML="Color: gold";
-    txtPrice3.innerHTML="Price: £29";
+    txtColor3.innerHTML = "Color: gold";
+    txtPrice3.innerHTML = "Price: £29";
 
-    ProductImg4.src="images/product_images/women/necklaces/woman_necklace4.jpeg";
+    ProductImg4.src = "images/product_images/women/necklaces/woman_necklace4.jpeg";
     txtBrand4.style.display = "none";
-    txtColor4.innerHTML="Color: purple/silver";
-    txtPrice4.innerHTML="Price: £40";
-
+    txtColor4.innerHTML = "Color: purple/silver";
+    txtPrice4.innerHTML = "Price: £40";
 
 }
 
-function WomenRings(){
+function WomenRings() {
 
     ProductTitle.innerHTML = "rings";
 
-    ProductImg1.src="images/product_images/women/rings/woman_ring1.jpg";
+    ProductImg1.src = "images/product_images/women/rings/woman_ring1.jpg";
     txtBrand1.style.display = "none";
-    txtColor1.innerHTML="Color: dark blue";
-    txtPrice1.innerHTML="Price: £15";
+    txtColor1.innerHTML = "Color: dark blue";
+    txtPrice1.innerHTML = "Price: £15";
 
-    ProductImg2.src="images/product_images/women/rings/woman_ring2.jpg";
+    ProductImg2.src = "images/product_images/women/rings/woman_ring2.jpg";
     txtBrand2.style.display = "none";
-    txtColor2.innerHTML="Color: silver";
-    txtPrice2.innerHTML="Price: £40";
+    txtColor2.innerHTML = "Color: silver";
+    txtPrice2.innerHTML = "Price: £40";
 
-    ProductImg3.src="images/product_images/women/rings/woman_ring3.jpg";
+    ProductImg3.src = "images/product_images/women/rings/woman_ring3.jpg";
     txtBrand3.style.display = "none";
-    txtColor3.innerHTML="Color: aqua";
-    txtPrice3.innerHTML="Price: £20";
+    txtColor3.innerHTML = "Color: aqua";
+    txtPrice3.innerHTML = "Price: £20";
 
-    ProductImg4.src="images/product_images/women/rings/woman_ring4.jpg";
+    ProductImg4.src = "images/product_images/women/rings/woman_ring4.jpg";
     txtBrand4.style.display = "none";
-    txtColor4.innerHTML="Color: tan";
-    txtPrice4.innerHTML="Price: £22";
-
+    txtColor4.innerHTML = "Color: tan";
+    txtPrice4.innerHTML = "Price: £22";
 
 }
 
-function AccessoriesKeyRings(){
+function AccessoriesKeyRings() {
 
     ProductTitle.innerHTML = "Key rings";
 
-    ProductImg1.src="images/product_images/accessories/KeyRings/AccessoriesKeyRing1.jpeg";
+    ProductImg1.src = "images/product_images/accessories/KeyRings/AccessoriesKeyRing1.jpeg";
     txtBrand1.style.display = "none";
-    txtColor1.innerHTML="Color: silver";
-    txtPrice1.innerHTML="Price: £4";
+    txtColor1.innerHTML = "Color: silver";
+    txtPrice1.innerHTML = "Price: £4";
 
-    ProductImg2.src="images/product_images/accessories/KeyRings/AccessoriesKeyRing2.jpg";
+    ProductImg2.src = "images/product_images/accessories/KeyRings/AccessoriesKeyRing2.jpg";
     txtBrand2.style.display = "none";
-    txtColor2.innerHTML="Color: silver";
-    txtPrice2.innerHTML="Price: £7";
+    txtColor2.innerHTML = "Color: silver";
+    txtPrice2.innerHTML = "Price: £7";
 
-    ProductImg3.src="images/product_images/accessories/KeyRings/AccessoriesKeyRing3.jpg";
+    ProductImg3.src = "images/product_images/accessories/KeyRings/AccessoriesKeyRing3.jpg";
     txtBrand3.style.display = "none";
-    txtColor3.innerHTML="Color: silver";
-    txtPrice3.innerHTML="Price: £10";
+    txtColor3.innerHTML = "Color: silver";
+    txtPrice3.innerHTML = "Price: £10";
 
-    ProductImg4.src="images/product_images/accessories/KeyRings/AccessoriesKeyRing4.jpg";
+    ProductImg4.src = "images/product_images/accessories/KeyRings/AccessoriesKeyRing4.jpg";
     txtBrand4.style.display = "none";
-    txtColor4.innerHTML="Color: silver";
-    txtPrice4.innerHTML="Price: £6";
-
+    txtColor4.innerHTML = "Color: silver";
+    txtPrice4.innerHTML = "Price: £6";
 
 }
 
-function AccessoriesZippoes(){
+function AccessoriesZippoes() {
 
     ProductTitle.innerHTML = "Zippoes";
 
-    ProductImg1.src="images/product_images/accessories/Zippoes/AccessoriesZippo1.jpg";
+    ProductImg1.src = "images/product_images/accessories/Zippoes/AccessoriesZippo1.jpg";
     txtBrand1.style.display = "none";
-    txtColor1.innerHTML="Color: gold";
-    txtPrice1.innerHTML="Price: £40";
+    txtColor1.innerHTML = "Color: gold";
+    txtPrice1.innerHTML = "Price: £40";
 
-    ProductImg2.src="images/product_images/accessories/Zippoes/AccessoriesZippo2.jpg";
+    ProductImg2.src = "images/product_images/accessories/Zippoes/AccessoriesZippo2.jpg";
     txtBrand2.style.display = "none";
-    txtColor2.innerHTML="Color: black";
-    txtPrice2.innerHTML="Price: £40";
+    txtColor2.innerHTML = "Color: black";
+    txtPrice2.innerHTML = "Price: £40";
 
-    ProductImg3.src="images/product_images/accessories/Zippoes/AccessoriesZippo3.jpg";
+    ProductImg3.src = "images/product_images/accessories/Zippoes/AccessoriesZippo3.jpg";
     txtBrand3.style.display = "none";
-    txtColor3.innerHTML="Color: black";
-    txtPrice3.innerHTML="Price: £50";
+    txtColor3.innerHTML = "Color: black";
+    txtPrice3.innerHTML = "Price: £50";
 
-    ProductImg4.src="images/product_images/accessories/Zippoes/AccessoriesZippo4.jpg";
+    ProductImg4.src = "images/product_images/accessories/Zippoes/AccessoriesZippo4.jpg";
     txtBrand4.style.display = "none";
-    txtColor4.innerHTML="Color: silver";
-    txtPrice4.innerHTML="Price: £30";
+    txtColor4.innerHTML = "Color: silver";
+    txtPrice4.innerHTML = "Price: £30";
 
 
 }

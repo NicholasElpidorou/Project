@@ -4,8 +4,7 @@
 
 var change;
 
-function showPage(){
-
+function showPage() {
 
     document.getElementById("body").style.backgroundImage = "url(images/other/mainpage_background.png)";
     document.getElementById("loader").style.display = "none";
@@ -13,6 +12,6 @@ function showPage(){
 
 }
 
-function loader(){
-    change = setTimeout(showPage,2500);
+function loader() {
+    change = setTimeout(showPage, 2500);
 }
