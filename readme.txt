@@ -2,7 +2,9 @@ CTEC3905-2nd assignment
 Author: p14138568
 Project: Online Jewellery shop
 
+
 Overview of the website itself
+
 The website has three categories. Men, Women and Accessories. A user when browsing the
 website will click on one of the three categories he is interested and then will click
 on a specific product type he wants. Once he clicks on the product type a modal window
@@ -12,6 +14,7 @@ At the bottom left of the page there are two links contact us and about us. Clic
 two links will pop out modals. The contact us modal lets the user fill in some details of
 himself and sends an email to us about something he needs. The about us modal is just
 information about us to the user.
+
 
 How was the website implemented
 
@@ -30,7 +33,9 @@ the help of javascript, see javascripts/category_chooser.js. This javascript als
 the id of the images so when a user clicks on an image the corresponding modal should appear. for example when a  user clicks MEN and then on bracelets, the id of the image is
 checked and the corresponding data from the product_data.js loads on the product modal.
 
+
 Validations
+
 The index.html and all the styles have been validated
 the html file was validated from: https://validator.w3.org/ and was passed successfully.
 I wanted to add the logo of the validation but my website has to be public in order for me to get the logo
@@ -39,7 +44,9 @@ I also validated the CSS files but I got a warning Property-webkit-animation nam
 
 No errors were tracked in the console
 
+
 Things I wanted to do
+
 For adding products inside the website I tried several times to populate the website with a son file. Unfortunately I have not succeeded because I use a lot of javascript to change
 properties for the website and it was a bit difficult to use. I used javascript rather than implementing raw html code for adding products and if i want to add a product or edit it I change the javascript file rather than changing the HTML code. 
 Code for trying to use Json files can be seen in the branches: 
